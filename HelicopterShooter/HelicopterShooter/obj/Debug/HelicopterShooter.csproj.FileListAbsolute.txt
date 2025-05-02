@@ -1,0 +1,54 @@
+C:\Users\user\source\repos\HelicopterShooter\HelicopterShooter\obj\Debug\HelicopterShooter.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\HelicopterShooter\HelicopterShooter\obj\Debug\HelicopterShooter.GameForm.resources
+C:\Users\user\source\repos\HelicopterShooter\HelicopterShooter\obj\Debug\HelicopterShooter.MainMenuForm.resources
+C:\Users\user\source\repos\HelicopterShooter\HelicopterShooter\obj\Debug\HelicopterShooter.Properties.Resources.resources
+C:\Users\user\source\repos\HelicopterShooter\HelicopterShooter\obj\Debug\HelicopterShooter.ShopForm.resources
+C:\Users\user\source\repos\HelicopterShooter\HelicopterShooter\obj\Debug\HelicopterShooter.csproj.GenerateResource.cache
+C:\Users\user\source\repos\HelicopterShooter\HelicopterShooter\obj\Debug\HelicopterShooter.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\HelicopterShooter\HelicopterShooter\bin\Debug\HelicopterShooter.exe.config
+C:\Users\user\source\repos\HelicopterShooter\HelicopterShooter\bin\Debug\HelicopterShooter.exe
+C:\Users\user\source\repos\HelicopterShooter\HelicopterShooter\bin\Debug\HelicopterShooter.pdb
+C:\Users\user\source\repos\HelicopterShooter\HelicopterShooter\obj\Debug\HelicopterShooter.exe
+C:\Users\user\source\repos\HelicopterShooter\HelicopterShooter\obj\Debug\HelicopterShooter.pdb
+D:\яндекс загрузки\HelicopterShooter-main\HelicopterShooter-main\HelicopterShooter\HelicopterShooter\bin\Debug\HelicopterShooter.exe.config
+D:\яндекс загрузки\HelicopterShooter-main\HelicopterShooter-main\HelicopterShooter\HelicopterShooter\bin\Debug\HelicopterShooter.exe
+D:\яндекс загрузки\HelicopterShooter-main\HelicopterShooter-main\HelicopterShooter\HelicopterShooter\bin\Debug\HelicopterShooter.pdb
+D:\яндекс загрузки\HelicopterShooter-main\HelicopterShooter-main\HelicopterShooter\HelicopterShooter\obj\Debug\HelicopterShooter.csproj.AssemblyReference.cache
+D:\яндекс загрузки\HelicopterShooter-main\HelicopterShooter-main\HelicopterShooter\HelicopterShooter\obj\Debug\HelicopterShooter.GameForm.resources
+D:\яндекс загрузки\HelicopterShooter-main\HelicopterShooter-main\HelicopterShooter\HelicopterShooter\obj\Debug\HelicopterShooter.MainMenuForm.resources
+D:\яндекс загрузки\HelicopterShooter-main\HelicopterShooter-main\HelicopterShooter\HelicopterShooter\obj\Debug\HelicopterShooter.Properties.Resources.resources
+D:\яндекс загрузки\HelicopterShooter-main\HelicopterShooter-main\HelicopterShooter\HelicopterShooter\obj\Debug\HelicopterShooter.ShopForm.resources
+D:\яндекс загрузки\HelicopterShooter-main\HelicopterShooter-main\HelicopterShooter\HelicopterShooter\obj\Debug\HelicopterShooter.csproj.GenerateResource.cache
+D:\яндекс загрузки\HelicopterShooter-main\HelicopterShooter-main\HelicopterShooter\HelicopterShooter\obj\Debug\HelicopterShooter.csproj.CoreCompileInputs.cache
+D:\яндекс загрузки\HelicopterShooter-main\HelicopterShooter-main\HelicopterShooter\HelicopterShooter\obj\Debug\HelicopterShooter.exe
+D:\яндекс загрузки\HelicopterShooter-main\HelicopterShooter-main\HelicopterShooter\HelicopterShooter\obj\Debug\HelicopterShooter.pdb
+D:\яндекс загрузки\HelicopterShooter-main\HelicopterShooter-main\HelicopterShooter\HelicopterShooter\obj\Debug\HelicopterShooter.HeroSkins.resources
+D:\яндекс загрузки\HelicopterShooter-main\HelicopterShooter-main\HelicopterShooter\HelicopterShooter\obj\Debug\HelicopterShooter.BackGroundSkins.resources
+D:\яндекс загрузки\HelicopterShooter-main\HelicopterShooter-main_17_59\HelicopterShooter\HelicopterShooter\bin\Debug\HelicopterShooter.exe.config
+D:\яндекс загрузки\HelicopterShooter-main\HelicopterShooter-main_17_59\HelicopterShooter\HelicopterShooter\bin\Debug\HelicopterShooter.exe
+D:\яндекс загрузки\HelicopterShooter-main\HelicopterShooter-main_17_59\HelicopterShooter\HelicopterShooter\bin\Debug\HelicopterShooter.pdb
+D:\яндекс загрузки\HelicopterShooter-main\HelicopterShooter-main_17_59\HelicopterShooter\HelicopterShooter\obj\Debug\HelicopterShooter.csproj.AssemblyReference.cache
+D:\яндекс загрузки\HelicopterShooter-main\HelicopterShooter-main_17_59\HelicopterShooter\HelicopterShooter\obj\Debug\HelicopterShooter.BackGroundSkins.resources
+D:\яндекс загрузки\HelicopterShooter-main\HelicopterShooter-main_17_59\HelicopterShooter\HelicopterShooter\obj\Debug\HelicopterShooter.GameForm.resources
+D:\яндекс загрузки\HelicopterShooter-main\HelicopterShooter-main_17_59\HelicopterShooter\HelicopterShooter\obj\Debug\HelicopterShooter.HeroSkins.resources
+D:\яндекс загрузки\HelicopterShooter-main\HelicopterShooter-main_17_59\HelicopterShooter\HelicopterShooter\obj\Debug\HelicopterShooter.MainMenuForm.resources
+D:\яндекс загрузки\HelicopterShooter-main\HelicopterShooter-main_17_59\HelicopterShooter\HelicopterShooter\obj\Debug\HelicopterShooter.Properties.Resources.resources
+D:\яндекс загрузки\HelicopterShooter-main\HelicopterShooter-main_17_59\HelicopterShooter\HelicopterShooter\obj\Debug\HelicopterShooter.ShopForm.resources
+D:\яндекс загрузки\HelicopterShooter-main\HelicopterShooter-main_17_59\HelicopterShooter\HelicopterShooter\obj\Debug\HelicopterShooter.csproj.GenerateResource.cache
+D:\яндекс загрузки\HelicopterShooter-main\HelicopterShooter-main_17_59\HelicopterShooter\HelicopterShooter\obj\Debug\HelicopterShooter.csproj.CoreCompileInputs.cache
+D:\яндекс загрузки\HelicopterShooter-main\HelicopterShooter-main_17_59\HelicopterShooter\HelicopterShooter\obj\Debug\HelicopterShooter.exe
+D:\яндекс загрузки\HelicopterShooter-main\HelicopterShooter-main_17_59\HelicopterShooter\HelicopterShooter\obj\Debug\HelicopterShooter.pdb
+D:\HelicopterShooter-main\HelicopterShooter\HelicopterShooter\bin\Debug\HelicopterShooter.exe.config
+D:\HelicopterShooter-main\HelicopterShooter\HelicopterShooter\bin\Debug\HelicopterShooter.exe
+D:\HelicopterShooter-main\HelicopterShooter\HelicopterShooter\bin\Debug\HelicopterShooter.pdb
+D:\HelicopterShooter-main\HelicopterShooter\HelicopterShooter\obj\Debug\HelicopterShooter.csproj.AssemblyReference.cache
+D:\HelicopterShooter-main\HelicopterShooter\HelicopterShooter\obj\Debug\HelicopterShooter.BackGroundSkins.resources
+D:\HelicopterShooter-main\HelicopterShooter\HelicopterShooter\obj\Debug\HelicopterShooter.GameForm.resources
+D:\HelicopterShooter-main\HelicopterShooter\HelicopterShooter\obj\Debug\HelicopterShooter.HeroSkins.resources
+D:\HelicopterShooter-main\HelicopterShooter\HelicopterShooter\obj\Debug\HelicopterShooter.MainMenuForm.resources
+D:\HelicopterShooter-main\HelicopterShooter\HelicopterShooter\obj\Debug\HelicopterShooter.Properties.Resources.resources
+D:\HelicopterShooter-main\HelicopterShooter\HelicopterShooter\obj\Debug\HelicopterShooter.ShopForm.resources
+D:\HelicopterShooter-main\HelicopterShooter\HelicopterShooter\obj\Debug\HelicopterShooter.csproj.GenerateResource.cache
+D:\HelicopterShooter-main\HelicopterShooter\HelicopterShooter\obj\Debug\HelicopterShooter.csproj.CoreCompileInputs.cache
+D:\HelicopterShooter-main\HelicopterShooter\HelicopterShooter\obj\Debug\HelicopterShooter.exe
+D:\HelicopterShooter-main\HelicopterShooter\HelicopterShooter\obj\Debug\HelicopterShooter.pdb
