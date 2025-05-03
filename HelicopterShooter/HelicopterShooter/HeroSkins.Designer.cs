@@ -42,9 +42,10 @@
             // 
             // CloseHeroSkinsButton
             // 
-            this.CloseHeroSkinsButton.Location = new System.Drawing.Point(26, 12);
+            this.CloseHeroSkinsButton.Location = new System.Drawing.Point(20, 10);
+            this.CloseHeroSkinsButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.CloseHeroSkinsButton.Name = "CloseHeroSkinsButton";
-            this.CloseHeroSkinsButton.Size = new System.Drawing.Size(292, 95);
+            this.CloseHeroSkinsButton.Size = new System.Drawing.Size(219, 77);
             this.CloseHeroSkinsButton.TabIndex = 0;
             this.CloseHeroSkinsButton.Text = "Назад";
             this.CloseHeroSkinsButton.UseVisualStyleBackColor = true;
@@ -54,9 +55,10 @@
             // 
             this.PictureHeroSkin1.BackgroundImage = global::HelicopterShooter.Properties.Resources.OIP__1_;
             this.PictureHeroSkin1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.PictureHeroSkin1.Location = new System.Drawing.Point(308, 205);
+            this.PictureHeroSkin1.Location = new System.Drawing.Point(231, 167);
+            this.PictureHeroSkin1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.PictureHeroSkin1.Name = "PictureHeroSkin1";
-            this.PictureHeroSkin1.Size = new System.Drawing.Size(400, 400);
+            this.PictureHeroSkin1.Size = new System.Drawing.Size(300, 325);
             this.PictureHeroSkin1.TabIndex = 1;
             this.PictureHeroSkin1.TabStop = false;
             // 
@@ -64,9 +66,10 @@
             // 
             this.PictureHeroSkin2.BackgroundImage = global::HelicopterShooter.Properties.Resources.OIP__1_;
             this.PictureHeroSkin2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.PictureHeroSkin2.Location = new System.Drawing.Point(774, 205);
+            this.PictureHeroSkin2.Location = new System.Drawing.Point(580, 167);
+            this.PictureHeroSkin2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.PictureHeroSkin2.Name = "PictureHeroSkin2";
-            this.PictureHeroSkin2.Size = new System.Drawing.Size(400, 400);
+            this.PictureHeroSkin2.Size = new System.Drawing.Size(300, 325);
             this.PictureHeroSkin2.TabIndex = 2;
             this.PictureHeroSkin2.TabStop = false;
             // 
@@ -74,9 +77,10 @@
             // 
             this.PictureHeroSkin3.BackgroundImage = global::HelicopterShooter.Properties.Resources.OIP__1_;
             this.PictureHeroSkin3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.PictureHeroSkin3.Location = new System.Drawing.Point(1240, 205);
+            this.PictureHeroSkin3.Location = new System.Drawing.Point(930, 167);
+            this.PictureHeroSkin3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.PictureHeroSkin3.Name = "PictureHeroSkin3";
-            this.PictureHeroSkin3.Size = new System.Drawing.Size(400, 400);
+            this.PictureHeroSkin3.Size = new System.Drawing.Size(300, 325);
             this.PictureHeroSkin3.TabIndex = 3;
             this.PictureHeroSkin3.TabStop = false;
             // 
@@ -84,9 +88,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 40.75F);
-            this.label1.Location = new System.Drawing.Point(349, 625);
+            this.label1.Location = new System.Drawing.Point(262, 508);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(372, 78);
+            this.label1.Size = new System.Drawing.Size(302, 63);
             this.label1.TabIndex = 4;
             this.label1.Text = "Предмет 1";
             // 
@@ -94,9 +99,10 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 40.75F);
-            this.label2.Location = new System.Drawing.Point(829, 625);
+            this.label2.Location = new System.Drawing.Point(622, 508);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(372, 78);
+            this.label2.Size = new System.Drawing.Size(302, 63);
             this.label2.TabIndex = 5;
             this.label2.Text = "Предмет 2";
             // 
@@ -104,17 +110,18 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 40.75F);
-            this.label3.Location = new System.Drawing.Point(1291, 625);
+            this.label3.Location = new System.Drawing.Point(968, 508);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(372, 78);
+            this.label3.Size = new System.Drawing.Size(302, 63);
             this.label3.TabIndex = 6;
             this.label3.Text = "Предмет 3";
             // 
             // HeroSkins
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1940, 1100);
+            this.ClientSize = new System.Drawing.Size(1920, 1080);
             this.ControlBox = false;
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -124,6 +131,7 @@
             this.Controls.Add(this.PictureHeroSkin1);
             this.Controls.Add(this.CloseHeroSkinsButton);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "HeroSkins";

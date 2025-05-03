@@ -42,9 +42,10 @@
             // 
             // CloseBackGroundSkins
             // 
-            this.CloseBackGroundSkins.Location = new System.Drawing.Point(37, 21);
+            this.CloseBackGroundSkins.Location = new System.Drawing.Point(28, 17);
+            this.CloseBackGroundSkins.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.CloseBackGroundSkins.Name = "CloseBackGroundSkins";
-            this.CloseBackGroundSkins.Size = new System.Drawing.Size(173, 66);
+            this.CloseBackGroundSkins.Size = new System.Drawing.Size(130, 54);
             this.CloseBackGroundSkins.TabIndex = 0;
             this.CloseBackGroundSkins.Text = "Назад";
             this.CloseBackGroundSkins.UseVisualStyleBackColor = true;
@@ -54,9 +55,10 @@
             // 
             this.PictureBackGroundSkin1.BackgroundImage = global::HelicopterShooter.Properties.Resources.OIP__2_;
             this.PictureBackGroundSkin1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.PictureBackGroundSkin1.Location = new System.Drawing.Point(281, 170);
+            this.PictureBackGroundSkin1.Location = new System.Drawing.Point(211, 138);
+            this.PictureBackGroundSkin1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.PictureBackGroundSkin1.Name = "PictureBackGroundSkin1";
-            this.PictureBackGroundSkin1.Size = new System.Drawing.Size(400, 400);
+            this.PictureBackGroundSkin1.Size = new System.Drawing.Size(300, 325);
             this.PictureBackGroundSkin1.TabIndex = 1;
             this.PictureBackGroundSkin1.TabStop = false;
             // 
@@ -64,9 +66,10 @@
             // 
             this.PictureBackGroundSkin2.BackgroundImage = global::HelicopterShooter.Properties.Resources.OIP__2_;
             this.PictureBackGroundSkin2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.PictureBackGroundSkin2.Location = new System.Drawing.Point(749, 170);
+            this.PictureBackGroundSkin2.Location = new System.Drawing.Point(562, 138);
+            this.PictureBackGroundSkin2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.PictureBackGroundSkin2.Name = "PictureBackGroundSkin2";
-            this.PictureBackGroundSkin2.Size = new System.Drawing.Size(400, 400);
+            this.PictureBackGroundSkin2.Size = new System.Drawing.Size(300, 325);
             this.PictureBackGroundSkin2.TabIndex = 2;
             this.PictureBackGroundSkin2.TabStop = false;
             // 
@@ -74,9 +77,10 @@
             // 
             this.PictureBackGroundSkin3.BackgroundImage = global::HelicopterShooter.Properties.Resources.OIP__2_;
             this.PictureBackGroundSkin3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.PictureBackGroundSkin3.Location = new System.Drawing.Point(1243, 170);
+            this.PictureBackGroundSkin3.Location = new System.Drawing.Point(932, 138);
+            this.PictureBackGroundSkin3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.PictureBackGroundSkin3.Name = "PictureBackGroundSkin3";
-            this.PictureBackGroundSkin3.Size = new System.Drawing.Size(400, 400);
+            this.PictureBackGroundSkin3.Size = new System.Drawing.Size(300, 325);
             this.PictureBackGroundSkin3.TabIndex = 3;
             this.PictureBackGroundSkin3.TabStop = false;
             // 
@@ -84,9 +88,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 40.75F);
-            this.label1.Location = new System.Drawing.Point(796, 584);
+            this.label1.Location = new System.Drawing.Point(597, 474);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(372, 78);
+            this.label1.Size = new System.Drawing.Size(302, 63);
             this.label1.TabIndex = 4;
             this.label1.Text = "Предмет 2";
             // 
@@ -94,9 +99,10 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 40.75F);
-            this.label2.Location = new System.Drawing.Point(1295, 584);
+            this.label2.Location = new System.Drawing.Point(971, 474);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(372, 78);
+            this.label2.Size = new System.Drawing.Size(302, 63);
             this.label2.TabIndex = 5;
             this.label2.Text = "Предмет 3";
             // 
@@ -104,17 +110,18 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 40.75F);
-            this.label3.Location = new System.Drawing.Point(329, 584);
+            this.label3.Location = new System.Drawing.Point(247, 474);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(372, 78);
+            this.label3.Size = new System.Drawing.Size(302, 63);
             this.label3.TabIndex = 6;
             this.label3.Text = "Предмет 1";
             // 
             // BackGroundSkins
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1940, 1100);
+            this.ClientSize = new System.Drawing.Size(1920, 1080);
             this.ControlBox = false;
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -124,6 +131,7 @@
             this.Controls.Add(this.PictureBackGroundSkin1);
             this.Controls.Add(this.CloseBackGroundSkins);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "BackGroundSkins";

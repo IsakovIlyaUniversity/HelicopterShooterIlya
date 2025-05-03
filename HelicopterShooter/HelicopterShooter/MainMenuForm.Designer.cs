@@ -77,6 +77,7 @@
             this.MinimizeBox = false;
             this.Name = "MainMenuForm";
             this.Text = "Menu";
+            this.Load += new System.EventHandler(this.MainMenuForm_Load);
             this.ResumeLayout(false);
 
         }

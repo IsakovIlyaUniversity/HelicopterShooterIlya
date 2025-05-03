@@ -21,8 +21,10 @@ namespace HelicopterShooter
         private void BtnPlay_Click(object sender, EventArgs e)
         {
             GameForm gamePlayForm = new GameForm();
-            gamePlayForm.Show();
             Hide();
+
+            gamePlayForm.ShowDialog();
+            Show();
         }
 
         private void BtnShop_Click(object sender, EventArgs e)
@@ -35,6 +37,11 @@ namespace HelicopterShooter
         private void BtnExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void MainMenuForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
