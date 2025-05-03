@@ -10,19 +10,19 @@ namespace HelicopterShooter
 {
     public class UFO : GameObject
     {
-        private const int BaseSpeedFullHD = 8;
-        private const int BaseWidth = 130;
-        private const int BaseHeight = 110;
+        private const int RespawnDelay = 120; //респаун. МБ стоит поменять время или менять его в ходе игры.
+
         private readonly Control _container;
         private readonly Image[] _ufoImages;
+
         private int _currentImageIndex;
         private bool _isDestroyed;
         private int _respawnTimer = 0;
-        private const int RespawnDelay = 120; //респаун. МБ стоит поменять время или менять его в ходе игры.
 
         public UFO(Control container)
         {
             _container = container;
+
             _ufoImages = new[]
             {
                 Properties.Resources.alien1,
@@ -32,40 +32,25 @@ namespace HelicopterShooter
 
             Sprite = new PictureBox
             {
+                Size = new Size(110, 100),
                 SizeMode = PictureBoxSizeMode.StretchImage,
                 Tag = "ufo"
             };
-            UpdateSizeAndSpeed();
+
             container.Controls.Add(Sprite);
             Reset();
-        }
-        private float GetScaleFactor()
-        {
-            float scaleX = _container.ClientSize.Width / 1920f;
-            float scaleY = _container.ClientSize.Height / 1080f;
-            return Math.Min(scaleX, scaleY);
-        }
-        public void UpdateSizeAndSpeed()
-        {
-            float scale = GetScaleFactor();
-
-            if (Sprite?.Image != null)
-            {
-                int newWidth = (int)(Sprite.Image.Width * scale);
-                int newHeight = (int)(Sprite.Image.Height * scale);
-                Sprite.Size = new Size(newWidth, newHeight);
-            }
-            Speed = (int)(BaseSpeedFullHD * scale);
         }
         public void Update(List<Obstacle> obstacles)
         {
             if (_isDestroyed)
             {
                 _respawnTimer++;
+
                 if (_respawnTimer >= RespawnDelay)
                 {
                     Reset();
                 }
+
                 return;
             }
 
@@ -80,12 +65,12 @@ namespace HelicopterShooter
                 }
             }
 
-            if (Sprite.Right < 0) Reset();
+            if (Sprite.Right < 0)
+                Reset();
         }
 
         public void Reset()
         {
-            UpdateSizeAndSpeed();
             _isDestroyed = false;
             _respawnTimer = 0;
             _currentImageIndex = (_currentImageIndex + 1) % _ufoImages.Length;
@@ -94,6 +79,7 @@ namespace HelicopterShooter
             Sprite.Top = new Random().Next(20, _container.ClientSize.Height - Sprite.Height);
             Sprite.Visible = true;
         }
+
         public void Destroy()
         {
             _isDestroyed = true;

@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\HelicopterShooter",
+    "\\HelicopterShooter\\HelicopterShooter"
   ],
-  "SelectedNode": "\\HelicopterShooter.sln",
+  "SelectedNode": "\\HelicopterShooter\\HelicopterShooter\\MainMenuForm.cs",
   "PreviewInSolutionExplorer": false
 }

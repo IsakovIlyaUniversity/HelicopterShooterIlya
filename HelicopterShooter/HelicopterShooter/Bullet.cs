@@ -10,34 +10,26 @@ namespace HelicopterShooter
 {
     public class Bullet : GameObject
     {
-        private const int BaseWidth = 20;
-        private const int BaseHeight = 10;
-        private int _baseSpeed = 25;
         public Bullet(Control container, int startX, int startY)
         {
-            float scaleX = container.ClientSize.Width / 1920f;
-            float scaleY = container.ClientSize.Height / 1080f;
-            float scale = Math.Min(scaleX, scaleY);
-
-            int newWidth = (int)(BaseWidth * scale);
-            int newHeight = (int)(BaseHeight * scale);
-
             Sprite = new PictureBox
             {
-                Size = new Size(newWidth, newHeight),
+                Size = new Size(20, 10),
                 BackColor = Color.Maroon,
                 Left = startX,
                 Top = startY,
                 Tag = "bullet"
             };
-            container.Controls.Add(Sprite);
-            Speed = (int)(_baseSpeed * scale);
-        }
 
+            container.Controls.Add(Sprite);
+            Speed = 25;
+        }
 
         public bool IsOutOfScreen(int screenWidth)
         {
-            if (Sprite == null) return true;
+            if (Sprite == null)
+                return true;
+
             return Sprite.Left > screenWidth;
         }
 
@@ -48,12 +40,10 @@ namespace HelicopterShooter
 
             Sprite.Left += Speed;
 
-
             if (CheckCollision(obstacles))
-            {
                 Destroy();
-            }
         }
+
         public bool CheckCollision(List<Obstacle> obstacles)
         {
             if (Sprite == null || obstacles == null)
@@ -66,6 +56,7 @@ namespace HelicopterShooter
                     return true;
                 }
             }
+
             return false;
         }
 

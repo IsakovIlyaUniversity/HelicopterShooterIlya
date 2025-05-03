@@ -10,64 +10,45 @@ namespace HelicopterShooter
     public class GameEngine
     {
         private readonly Form _gameForm;
-        public event Action<int> ScoreUpdated;
-        public event Action<int> GameOver;
 
         private readonly Control _container;
         private readonly Player _player;
         private readonly UFO _ufo;
         private readonly List<Obstacle> _obstacles;
         private readonly List<Bullet> _bullets;
-        private readonly System.Windows.Forms.Timer _gameTimer;
+        private readonly Timer _gameTimer;
         private readonly Random _random = new Random();
 
         private int _score;
         private bool _gameIsOver;
 
+        public event Action<int> ScoreUpdated;
+        public event Action<int> GameOver;
+
         public GameEngine(
             Control container, Form gameForm,
             PictureBox playerSprite, PictureBox obstacleSprite1,
-            PictureBox obstacleSprite2)
+            PictureBox obstacleSprite2
+            )
         {
             _container = container;
             _gameForm = gameForm;
 
-            _container.SizeChanged += OnContainerSizeChanged;
-
-
-            _player = new Player(playerSprite, _container);
+            _player = new Player(playerSprite);
             _ufo = new UFO(container);
 
             _obstacles = new List<Obstacle>
             {
-                new Obstacle(obstacleSprite1, _container, true),
-                new Obstacle(obstacleSprite2, _container, false)
-
+                new Obstacle(obstacleSprite1),
+                new Obstacle(obstacleSprite2)
             };
 
             _bullets = new List<Bullet>();
 
-            _gameTimer = new System.Windows.Forms.Timer { Interval = 20 };
+            _gameTimer = new Timer { Interval = 20 };
             _gameTimer.Tick += UpdateGame;
 
             ResetGame();
-        }
-        private void OnContainerSizeChanged(object sender, EventArgs e)
-        {
-            _player.UpdatePlayerSize();
-            _ufo.UpdateSizeAndSpeed();
-            foreach (var obstacle in _obstacles)
-            {
-                obstacle.UpdateSizeAndSpeed();
-            }
-            _player.Reset();
-            _ufo.Reset();
-            float scale = Math.Min(
-            _container.ClientSize.Width / 1920f,
-            _container.ClientSize.Height / 1080f
-        );
-
-
         }
         public void HandleKeyDown(Keys key)
         {
@@ -75,26 +56,46 @@ namespace HelicopterShooter
             {
                 _gameForm.Close();
             }
+
             if (_gameIsOver && key == Keys.Enter)
             {
                 ResetGame();
+
                 return;
             }
 
             switch (key)
             {
-                case Keys.Up: _player.MoveUp(); break;
-                case Keys.Down: _player.MoveDown(); break;
-                case Keys.Space: Shoot(); break;
+                case Keys.Up:
+                    _player.MoveUp();
+                    break;
 
+                case Keys.Down:
+                    _player.MoveDown();
+                    break;
+
+                case Keys.Space:
+                    Shoot();
+                    break;
+
+                case Keys.Escape:
+
+                    _container.FindForm()?.Close();
+                    break;
             }
         }
+
         public void HandleKeyUp(Keys key)
         {
             switch (key)
             {
-                case Keys.Up: _player.StopMovingUp(); break;
-                case Keys.Down: _player.StopMovingDown(); break;
+                case Keys.Up:
+                    _player.StopMovingUp();
+                    break;
+
+                case Keys.Down:
+                    _player.StopMovingDown();
+                    break;
             }
         }
 
@@ -134,6 +135,7 @@ namespace HelicopterShooter
                         bullet.Destroy();
                         IncreaseScore();
                         _ufo.Reset();
+
                         break;
                     }
 
@@ -141,6 +143,7 @@ namespace HelicopterShooter
                     {
                         _bullets.Remove(bullet);
                         bullet.Destroy();
+
                         break;
                     }
                 }
@@ -162,6 +165,7 @@ namespace HelicopterShooter
         private void AdjustDifficulty()
         {
             _ufo.Speed = 10 + _score / 5;
+
             foreach (var obstacle in _obstacles)
             {
                 obstacle.Speed = 8 + _score / 10;
@@ -189,7 +193,9 @@ namespace HelicopterShooter
             _player.Reset();
             _ufo.Reset();
 
-            foreach (var bullet in _bullets) bullet.Destroy();
+            foreach (var bullet in _bullets)
+                bullet.Destroy();
+
             _bullets.Clear();
 
             ScoreUpdated?.Invoke(_score);
