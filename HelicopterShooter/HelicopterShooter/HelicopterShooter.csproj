@@ -146,5 +146,23 @@
   <ItemGroup>
     <None Include="Resources\coins.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonBack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonBack1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackGroundMain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackGround1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackGround2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackGround3.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
