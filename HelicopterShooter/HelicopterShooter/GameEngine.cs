@@ -182,7 +182,9 @@ namespace HelicopterShooter
         {
             _gameTimer.Stop();
             _gameIsOver = true;
+            Properties.Settings.Default.TotalCoins += _score;
             GameOver?.Invoke(_score);
+
         }
 
         private void ResetGame()

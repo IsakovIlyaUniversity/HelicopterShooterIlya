@@ -35,15 +35,18 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.CoinsCount = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.PictureHeroSkin1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureHeroSkin2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureHeroSkin3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // CloseHeroSkinsButton
             // 
             this.CloseHeroSkinsButton.Location = new System.Drawing.Point(20, 10);
-            this.CloseHeroSkinsButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CloseHeroSkinsButton.Margin = new System.Windows.Forms.Padding(2);
             this.CloseHeroSkinsButton.Name = "CloseHeroSkinsButton";
             this.CloseHeroSkinsButton.Size = new System.Drawing.Size(219, 77);
             this.CloseHeroSkinsButton.TabIndex = 0;
@@ -56,7 +59,7 @@
             this.PictureHeroSkin1.BackgroundImage = global::HelicopterShooter.Properties.Resources.OIP__1_;
             this.PictureHeroSkin1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.PictureHeroSkin1.Location = new System.Drawing.Point(231, 167);
-            this.PictureHeroSkin1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PictureHeroSkin1.Margin = new System.Windows.Forms.Padding(2);
             this.PictureHeroSkin1.Name = "PictureHeroSkin1";
             this.PictureHeroSkin1.Size = new System.Drawing.Size(300, 325);
             this.PictureHeroSkin1.TabIndex = 1;
@@ -67,7 +70,7 @@
             this.PictureHeroSkin2.BackgroundImage = global::HelicopterShooter.Properties.Resources.OIP__1_;
             this.PictureHeroSkin2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.PictureHeroSkin2.Location = new System.Drawing.Point(580, 167);
-            this.PictureHeroSkin2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PictureHeroSkin2.Margin = new System.Windows.Forms.Padding(2);
             this.PictureHeroSkin2.Name = "PictureHeroSkin2";
             this.PictureHeroSkin2.Size = new System.Drawing.Size(300, 325);
             this.PictureHeroSkin2.TabIndex = 2;
@@ -78,7 +81,7 @@
             this.PictureHeroSkin3.BackgroundImage = global::HelicopterShooter.Properties.Resources.OIP__1_;
             this.PictureHeroSkin3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.PictureHeroSkin3.Location = new System.Drawing.Point(930, 167);
-            this.PictureHeroSkin3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PictureHeroSkin3.Margin = new System.Windows.Forms.Padding(2);
             this.PictureHeroSkin3.Name = "PictureHeroSkin3";
             this.PictureHeroSkin3.Size = new System.Drawing.Size(300, 325);
             this.PictureHeroSkin3.TabIndex = 3;
@@ -117,12 +120,34 @@
             this.label3.TabIndex = 6;
             this.label3.Text = "Предмет 3";
             // 
+            // CoinsCount
+            // 
+            this.CoinsCount.AutoSize = true;
+            this.CoinsCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.CoinsCount.Location = new System.Drawing.Point(1540, 76);
+            this.CoinsCount.Name = "CoinsCount";
+            this.CoinsCount.Size = new System.Drawing.Size(69, 76);
+            this.CoinsCount.TabIndex = 7;
+            this.CoinsCount.Text = Properties.Settings.Default.TotalCoins.ToString();
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::HelicopterShooter.Properties.Resources.coins;
+            this.pictureBox1.Location = new System.Drawing.Point(1627, 55);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(126, 125);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 8;
+            this.pictureBox1.TabStop = false;
+            // 
             // HeroSkins
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1920, 1080);
             this.ControlBox = false;
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.CoinsCount);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -131,7 +156,7 @@
             this.Controls.Add(this.PictureHeroSkin1);
             this.Controls.Add(this.CloseHeroSkinsButton);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "HeroSkins";
@@ -140,6 +165,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.PictureHeroSkin1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureHeroSkin2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureHeroSkin3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -154,5 +180,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label CoinsCount;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
