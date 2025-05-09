@@ -110,7 +110,7 @@
       <DependentUpon>ShopForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
     <Compile Include="Properties\Settings.Designer.cs">
@@ -142,6 +142,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\alien1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coins.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
