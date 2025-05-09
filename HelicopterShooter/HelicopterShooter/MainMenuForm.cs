@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace HelicopterShooter
 {
-    public partial class MainMenuForm : Form
+    public partial class MainMenuForm : Form //commment
     {
         public MainMenuForm()
         {
