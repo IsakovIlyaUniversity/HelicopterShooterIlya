@@ -133,6 +133,26 @@ namespace HelicopterShooter.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BackGroundMain1 {
+            get {
+                object obj = ResourceManager.GetObject("BackGroundMain1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BackGroundSkinsButton {
+            get {
+                object obj = ResourceManager.GetObject("BackGroundSkinsButton", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ButtonBack {
             get {
                 object obj = ResourceManager.GetObject("ButtonBack", resourceCulture);
@@ -153,6 +173,26 @@ namespace HelicopterShooter.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ButtonBack2 {
+            get {
+                object obj = ResourceManager.GetObject("ButtonBack2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ButtonBack3 {
+            get {
+                object obj = ResourceManager.GetObject("ButtonBack3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap coins {
             get {
                 object obj = ResourceManager.GetObject("coins", resourceCulture);
@@ -166,6 +206,16 @@ namespace HelicopterShooter.Properties {
         internal static System.Drawing.Bitmap Helicopter {
             get {
                 object obj = ResourceManager.GetObject("Helicopter", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap HeroSkinsButton {
+            get {
+                object obj = ResourceManager.GetObject("HeroSkinsButton", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -45,14 +45,15 @@
             // 
             // CloseHeroSkinsButton
             // 
+            this.CloseHeroSkinsButton.BackgroundImage = global::HelicopterShooter.Properties.Resources.ButtonBack3;
+            this.CloseHeroSkinsButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.CloseHeroSkinsButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CloseHeroSkinsButton.FlatAppearance.BorderSize = 0;
             this.CloseHeroSkinsButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.CloseHeroSkinsButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.CloseHeroSkinsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.CloseHeroSkinsButton.Image = global::HelicopterShooter.Properties.Resources.ButtonBack1;
             this.CloseHeroSkinsButton.Location = new System.Drawing.Point(42, 33);
-            this.CloseHeroSkinsButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.CloseHeroSkinsButton.Margin = new System.Windows.Forms.Padding(2);
             this.CloseHeroSkinsButton.Name = "CloseHeroSkinsButton";
             this.CloseHeroSkinsButton.Size = new System.Drawing.Size(240, 80);
             this.CloseHeroSkinsButton.TabIndex = 0;

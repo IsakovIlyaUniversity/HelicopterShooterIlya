@@ -70,7 +70,6 @@ C:\Users\Mopik\Documents\GitHub\HelicopterShooterIlya\HelicopterShooter\Helicopt
 C:\Users\Mopik\Documents\GitHub\HelicopterShooterIlya\HelicopterShooter\HelicopterShooter\bin\Debug\HelicopterShooter.exe
 C:\Users\Mopik\Documents\GitHub\HelicopterShooterIlya\HelicopterShooter\HelicopterShooter\bin\Debug\HelicopterShooter.pdb
 C:\Users\Mopik\Documents\GitHub\HelicopterShooterIlya\HelicopterShooter\HelicopterShooter\obj\Debug\HelicopterShooter.csproj.AssemblyReference.cache
-C:\Users\Mopik\Documents\GitHub\HelicopterShooterIlya\HelicopterShooter\HelicopterShooter\obj\Debug\HelicopterShooter.BackGroundSkins.resources
 C:\Users\Mopik\Documents\GitHub\HelicopterShooterIlya\HelicopterShooter\HelicopterShooter\obj\Debug\HelicopterShooter.GameForm.resources
 C:\Users\Mopik\Documents\GitHub\HelicopterShooterIlya\HelicopterShooter\HelicopterShooter\obj\Debug\HelicopterShooter.HeroSkins.resources
 C:\Users\Mopik\Documents\GitHub\HelicopterShooterIlya\HelicopterShooter\HelicopterShooter\obj\Debug\HelicopterShooter.MainMenuForm.resources
@@ -80,3 +79,4 @@ C:\Users\Mopik\Documents\GitHub\HelicopterShooterIlya\HelicopterShooter\Helicopt
 C:\Users\Mopik\Documents\GitHub\HelicopterShooterIlya\HelicopterShooter\HelicopterShooter\obj\Debug\HelicopterShooter.csproj.CoreCompileInputs.cache
 C:\Users\Mopik\Documents\GitHub\HelicopterShooterIlya\HelicopterShooter\HelicopterShooter\obj\Debug\HelicopterShooter.exe
 C:\Users\Mopik\Documents\GitHub\HelicopterShooterIlya\HelicopterShooter\HelicopterShooter\obj\Debug\HelicopterShooter.pdb
+C:\Users\Mopik\Documents\GitHub\HelicopterShooterIlya\HelicopterShooter\HelicopterShooter\obj\Debug\HelicopterShooter.BackGroundSkins.resources

@@ -164,5 +164,20 @@
   <ItemGroup>
     <None Include="Resources\BackGround3.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonBack2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HeroSkinsButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackGroundSkinsButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackGroundMain1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonBack3.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
