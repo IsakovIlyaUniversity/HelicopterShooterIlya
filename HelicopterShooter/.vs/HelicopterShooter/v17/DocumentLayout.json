@@ -3,28 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Mopik\\Documents\\GitHub\\HelicopterShooterIlya\\HelicopterShooter\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{05417F29-F885-4FFA-825B-E7AAD0C7A50D}|HelicopterShooter\\HelicopterShooter.csproj|C:\\Users\\Mopik\\Documents\\GitHub\\HelicopterShooterIlya\\HelicopterShooter\\helicoptershooter\\backgroundskins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{05417F29-F885-4FFA-825B-E7AAD0C7A50D}|HelicopterShooter\\HelicopterShooter.csproj|c:\\users\\mopik\\documents\\github\\helicoptershooterilya\\helicoptershooter\\helicoptershooter\\backgroundskins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{05417F29-F885-4FFA-825B-E7AAD0C7A50D}|HelicopterShooter\\HelicopterShooter.csproj|solutionrelative:helicoptershooter\\backgroundskins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05417F29-F885-4FFA-825B-E7AAD0C7A50D}|HelicopterShooter\\HelicopterShooter.csproj|C:\\Users\\Mopik\\Documents\\GitHub\\HelicopterShooterIlya\\HelicopterShooter\\helicoptershooter\\heroskins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{05417F29-F885-4FFA-825B-E7AAD0C7A50D}|HelicopterShooter\\HelicopterShooter.csproj|solutionrelative:helicoptershooter\\heroskins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05417F29-F885-4FFA-825B-E7AAD0C7A50D}|HelicopterShooter\\HelicopterShooter.csproj|C:\\Users\\Mopik\\Documents\\GitHub\\HelicopterShooterIlya\\HelicopterShooter\\helicoptershooter\\shopform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{05417F29-F885-4FFA-825B-E7AAD0C7A50D}|HelicopterShooter\\HelicopterShooter.csproj|solutionrelative:helicoptershooter\\shopform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05417F29-F885-4FFA-825B-E7AAD0C7A50D}|HelicopterShooter\\HelicopterShooter.csproj|c:\\users\\mopik\\documents\\github\\helicoptershooterilya\\helicoptershooter\\helicoptershooter\\backgroundskins.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05417F29-F885-4FFA-825B-E7AAD0C7A50D}|HelicopterShooter\\HelicopterShooter.csproj|solutionrelative:helicoptershooter\\backgroundskins.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05417F29-F885-4FFA-825B-E7AAD0C7A50D}|HelicopterShooter\\HelicopterShooter.csproj|C:\\Users\\Mopik\\Documents\\GitHub\\HelicopterShooterIlya\\HelicopterShooter\\helicoptershooter\\backgroundskins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05417F29-F885-4FFA-825B-E7AAD0C7A50D}|HelicopterShooter\\HelicopterShooter.csproj|solutionrelative:helicoptershooter\\backgroundskins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05417F29-F885-4FFA-825B-E7AAD0C7A50D}|HelicopterShooter\\HelicopterShooter.csproj|C:\\Users\\Mopik\\Documents\\GitHub\\HelicopterShooterIlya\\HelicopterShooter\\helicoptershooter\\mainmenuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{05417F29-F885-4FFA-825B-E7AAD0C7A50D}|HelicopterShooter\\HelicopterShooter.csproj|solutionrelative:helicoptershooter\\mainmenuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,72 +30,7 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:2:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BackGroundSkins.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Mopik\\Documents\\GitHub\\HelicopterShooterIlya\\HelicopterShooter\\HelicopterShooter\\BackGroundSkins.Designer.cs",
-              "RelativeDocumentMoniker": "HelicopterShooter\\BackGroundSkins.Designer.cs",
-              "ToolTip": "C:\\Users\\Mopik\\Documents\\GitHub\\HelicopterShooterIlya\\HelicopterShooter\\HelicopterShooter\\BackGroundSkins.Designer.cs",
-              "RelativeToolTip": "HelicopterShooter\\BackGroundSkins.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAALcAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T13:24:42.116Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BackGroundSkins.cs",
-              "DocumentMoniker": "C:\\Users\\Mopik\\Documents\\GitHub\\HelicopterShooterIlya\\HelicopterShooter\\HelicopterShooter\\BackGroundSkins.cs",
-              "RelativeDocumentMoniker": "HelicopterShooter\\BackGroundSkins.cs",
-              "ToolTip": "C:\\Users\\Mopik\\Documents\\GitHub\\HelicopterShooterIlya\\HelicopterShooter\\HelicopterShooter\\BackGroundSkins.cs",
-              "RelativeToolTip": "HelicopterShooter\\BackGroundSkins.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T13:08:55.017Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainMenuForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Mopik\\Documents\\GitHub\\HelicopterShooterIlya\\HelicopterShooter\\HelicopterShooter\\MainMenuForm.cs",
-              "RelativeDocumentMoniker": "HelicopterShooter\\MainMenuForm.cs",
-              "ToolTip": "C:\\Users\\Mopik\\Documents\\GitHub\\HelicopterShooterIlya\\HelicopterShooter\\HelicopterShooter\\MainMenuForm.cs [Design]",
-              "RelativeToolTip": "HelicopterShooter\\MainMenuForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T13:52:40.367Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ShopForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Mopik\\Documents\\GitHub\\HelicopterShooterIlya\\HelicopterShooter\\HelicopterShooter\\ShopForm.cs",
-              "RelativeDocumentMoniker": "HelicopterShooter\\ShopForm.cs",
-              "ToolTip": "C:\\Users\\Mopik\\Documents\\GitHub\\HelicopterShooterIlya\\HelicopterShooter\\HelicopterShooter\\ShopForm.cs [Design]",
-              "RelativeToolTip": "HelicopterShooter\\ShopForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T12:56:58.696Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HeroSkins.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Mopik\\Documents\\GitHub\\HelicopterShooterIlya\\HelicopterShooter\\HelicopterShooter\\HeroSkins.cs",
-              "RelativeDocumentMoniker": "HelicopterShooter\\HeroSkins.cs",
-              "ToolTip": "C:\\Users\\Mopik\\Documents\\GitHub\\HelicopterShooterIlya\\HelicopterShooter\\HelicopterShooter\\HeroSkins.cs [Design]",
-              "RelativeToolTip": "HelicopterShooter\\HeroSkins.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T13:17:19.962Z",
-              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -126,7 +41,7 @@
               "ToolTip": "C:\\Users\\Mopik\\Documents\\GitHub\\HelicopterShooterIlya\\HelicopterShooter\\HelicopterShooter\\BackGroundSkins.cs [Design]",
               "RelativeToolTip": "HelicopterShooter\\BackGroundSkins.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T13:46:08.259Z",
+              "WhenOpened": "2025-05-11T23:58:40.893Z",
               "EditorCaption": " [Design]"
             }
           ]

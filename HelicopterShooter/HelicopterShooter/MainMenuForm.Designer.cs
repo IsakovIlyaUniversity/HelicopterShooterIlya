@@ -35,9 +35,10 @@
             // 
             // btnPlay
             // 
-            this.btnPlay.Location = new System.Drawing.Point(491, 211);
+            this.btnPlay.Font = new System.Drawing.Font("Microsoft Sans Serif", 60.25F);
+            this.btnPlay.Location = new System.Drawing.Point(810, 249);
             this.btnPlay.Name = "btnPlay";
-            this.btnPlay.Size = new System.Drawing.Size(75, 23);
+            this.btnPlay.Size = new System.Drawing.Size(300, 100);
             this.btnPlay.TabIndex = 0;
             this.btnPlay.Text = "Play";
             this.btnPlay.UseVisualStyleBackColor = true;
@@ -45,9 +46,10 @@
             // 
             // btnShop
             // 
-            this.btnShop.Location = new System.Drawing.Point(409, 306);
+            this.btnShop.Font = new System.Drawing.Font("Microsoft Sans Serif", 60.25F);
+            this.btnShop.Location = new System.Drawing.Point(810, 443);
             this.btnShop.Name = "btnShop";
-            this.btnShop.Size = new System.Drawing.Size(75, 23);
+            this.btnShop.Size = new System.Drawing.Size(300, 100);
             this.btnShop.TabIndex = 1;
             this.btnShop.Text = "Shop";
             this.btnShop.UseVisualStyleBackColor = true;
@@ -55,9 +57,10 @@
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(450, 379);
+            this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 60.25F);
+            this.btnExit.Location = new System.Drawing.Point(810, 637);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(75, 23);
+            this.btnExit.Size = new System.Drawing.Size(300, 100);
             this.btnExit.TabIndex = 2;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
@@ -89,4 +92,3 @@
         private System.Windows.Forms.Button btnExit;
     }
 }
-

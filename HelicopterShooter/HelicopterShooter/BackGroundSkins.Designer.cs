@@ -1,4 +1,6 @@
-﻿namespace HelicopterShooter
+﻿using System;
+
+namespace HelicopterShooter
 {
     partial class BackGroundSkins
     {
@@ -19,6 +21,7 @@
             }
             base.Dispose(disposing);
         }
+
 
         #region Windows Form Designer generated code
 
@@ -45,6 +48,7 @@
             // 
             // PickBackGroundMain
             // 
+            this.PickBackGroundMain.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PickBackGroundMain.Location = new System.Drawing.Point(106, 757);
             this.PickBackGroundMain.Name = "PickBackGroundMain";
             this.PickBackGroundMain.Size = new System.Drawing.Size(300, 100);
@@ -54,6 +58,7 @@
             // 
             // BuyBackGround2
             // 
+            this.BuyBackGround2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BuyBackGround2.Location = new System.Drawing.Point(575, 757);
             this.BuyBackGround2.Name = "BuyBackGround2";
             this.BuyBackGround2.Size = new System.Drawing.Size(300, 100);
@@ -63,6 +68,7 @@
             // 
             // BuyBackGround3
             // 
+            this.BuyBackGround3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BuyBackGround3.Location = new System.Drawing.Point(1044, 757);
             this.BuyBackGround3.Name = "BuyBackGround3";
             this.BuyBackGround3.Size = new System.Drawing.Size(300, 100);
@@ -72,6 +78,7 @@
             // 
             // BuyBackGround4
             // 
+            this.BuyBackGround4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BuyBackGround4.Location = new System.Drawing.Point(1513, 757);
             this.BuyBackGround4.Name = "BuyBackGround4";
             this.BuyBackGround4.Size = new System.Drawing.Size(300, 100);
@@ -142,8 +149,7 @@
             // 
             // BackGroundSkins
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.DarkGreen;
             this.ClientSize = new System.Drawing.Size(1920, 1080);
@@ -163,7 +169,6 @@
             this.MinimizeBox = false;
             this.Name = "BackGroundSkins";
             this.Text = "BackGroundSkins";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBackGroundSkin3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBackGroundSkin2)).EndInit();
@@ -171,6 +176,7 @@
             this.ResumeLayout(false);
 
         }
+
 
         #endregion
 

@@ -189,7 +189,7 @@ namespace HelicopterShooter
 
         private void ResetGame()
         {
-            _score = 0;
+            //_score = 0;
             _gameIsOver = false;
 
             _player.Reset();

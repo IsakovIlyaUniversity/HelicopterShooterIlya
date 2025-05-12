@@ -30,6 +30,6 @@ namespace HelicopterShooter
             return Sprite.Bounds.IntersectsWith(other.Sprite.Bounds);
         }
 
-        
+
     }
 }

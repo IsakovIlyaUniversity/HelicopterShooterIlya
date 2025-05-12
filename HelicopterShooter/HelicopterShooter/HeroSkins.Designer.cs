@@ -29,18 +29,21 @@
         private void InitializeComponent()
         {
             this.CloseHeroSkinsButton = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.CoinsCount = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.PictureHeroSkin3 = new System.Windows.Forms.PictureBox();
             this.PictureHeroSkin2 = new System.Windows.Forms.PictureBox();
             this.PictureHeroSkin1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.PickSkinMain = new System.Windows.Forms.Button();
+            this.BuyHeroSkin1 = new System.Windows.Forms.Button();
+            this.BuyHeroSkin2 = new System.Windows.Forms.Button();
+            this.BuyHeroSkin3 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureHeroSkin3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureHeroSkin2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureHeroSkin1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // CloseHeroSkinsButton
@@ -59,36 +62,6 @@
             this.CloseHeroSkinsButton.TabIndex = 0;
             this.CloseHeroSkinsButton.UseVisualStyleBackColor = true;
             this.CloseHeroSkinsButton.Click += new System.EventHandler(this.CloseHeroSkinsButton_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 40.75F);
-            this.label1.Location = new System.Drawing.Point(349, 625);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(302, 63);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Предмет 1";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 40.75F);
-            this.label2.Location = new System.Drawing.Point(829, 625);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(302, 63);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Предмет 2";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 40.75F);
-            this.label3.Location = new System.Drawing.Point(1291, 625);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(302, 63);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "Предмет 3";
             // 
             // CoinsCount
             // 
@@ -116,10 +89,10 @@
             // 
             this.PictureHeroSkin3.BackgroundImage = global::HelicopterShooter.Properties.Resources.OIP__1_;
             this.PictureHeroSkin3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.PictureHeroSkin3.Location = new System.Drawing.Point(1240, 206);
+            this.PictureHeroSkin3.Location = new System.Drawing.Point(1453, 287);
             this.PictureHeroSkin3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PictureHeroSkin3.Name = "PictureHeroSkin3";
-            this.PictureHeroSkin3.Size = new System.Drawing.Size(400, 400);
+            this.PictureHeroSkin3.Size = new System.Drawing.Size(420, 420);
             this.PictureHeroSkin3.TabIndex = 3;
             this.PictureHeroSkin3.TabStop = false;
             // 
@@ -127,10 +100,10 @@
             // 
             this.PictureHeroSkin2.BackgroundImage = global::HelicopterShooter.Properties.Resources.OIP__1_;
             this.PictureHeroSkin2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.PictureHeroSkin2.Location = new System.Drawing.Point(773, 206);
+            this.PictureHeroSkin2.Location = new System.Drawing.Point(984, 287);
             this.PictureHeroSkin2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PictureHeroSkin2.Name = "PictureHeroSkin2";
-            this.PictureHeroSkin2.Size = new System.Drawing.Size(400, 400);
+            this.PictureHeroSkin2.Size = new System.Drawing.Size(420, 420);
             this.PictureHeroSkin2.TabIndex = 2;
             this.PictureHeroSkin2.TabStop = false;
             // 
@@ -138,25 +111,77 @@
             // 
             this.PictureHeroSkin1.BackgroundImage = global::HelicopterShooter.Properties.Resources.OIP__1_;
             this.PictureHeroSkin1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.PictureHeroSkin1.Location = new System.Drawing.Point(308, 206);
+            this.PictureHeroSkin1.Location = new System.Drawing.Point(515, 287);
             this.PictureHeroSkin1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PictureHeroSkin1.Name = "PictureHeroSkin1";
-            this.PictureHeroSkin1.Size = new System.Drawing.Size(400, 400);
+            this.PictureHeroSkin1.Size = new System.Drawing.Size(420, 420);
             this.PictureHeroSkin1.TabIndex = 1;
             this.PictureHeroSkin1.TabStop = false;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = global::HelicopterShooter.Properties.Resources.Helicopter;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Location = new System.Drawing.Point(46, 287);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(420, 420);
+            this.pictureBox2.TabIndex = 9;
+            this.pictureBox2.TabStop = false;
+            // 
+            // PickSkinMain
+            // 
+            this.PickSkinMain.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.PickSkinMain.Location = new System.Drawing.Point(106, 757);
+            this.PickSkinMain.Name = "PickSkinMain";
+            this.PickSkinMain.Size = new System.Drawing.Size(300, 100);
+            this.PickSkinMain.TabIndex = 10;
+            this.PickSkinMain.Text = "PickSkinMain";
+            this.PickSkinMain.UseVisualStyleBackColor = true;
+            // 
+            // BuyHeroSkin1
+            // 
+            this.BuyHeroSkin1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BuyHeroSkin1.Location = new System.Drawing.Point(575, 757);
+            this.BuyHeroSkin1.Name = "BuyHeroSkin1";
+            this.BuyHeroSkin1.Size = new System.Drawing.Size(300, 100);
+            this.BuyHeroSkin1.TabIndex = 11;
+            this.BuyHeroSkin1.Text = "BuyHeroSkin1";
+            this.BuyHeroSkin1.UseVisualStyleBackColor = true;
+            // 
+            // BuyHeroSkin2
+            // 
+            this.BuyHeroSkin2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BuyHeroSkin2.Location = new System.Drawing.Point(1044, 757);
+            this.BuyHeroSkin2.Name = "BuyHeroSkin2";
+            this.BuyHeroSkin2.Size = new System.Drawing.Size(300, 100);
+            this.BuyHeroSkin2.TabIndex = 12;
+            this.BuyHeroSkin2.Text = "BuyHeroSkin2";
+            this.BuyHeroSkin2.UseVisualStyleBackColor = true;
+            // 
+            // BuyHeroSkin3
+            // 
+            this.BuyHeroSkin3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BuyHeroSkin3.Location = new System.Drawing.Point(1513, 757);
+            this.BuyHeroSkin3.Name = "BuyHeroSkin3";
+            this.BuyHeroSkin3.Size = new System.Drawing.Size(300, 100);
+            this.BuyHeroSkin3.TabIndex = 13;
+            this.BuyHeroSkin3.Text = "BuyHeroSkin3";
+            this.BuyHeroSkin3.UseVisualStyleBackColor = true;
+            // 
             // HeroSkins
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.DarkGreen;
             this.ClientSize = new System.Drawing.Size(1920, 1080);
             this.ControlBox = false;
+            this.Controls.Add(this.BuyHeroSkin3);
+            this.Controls.Add(this.BuyHeroSkin2);
+            this.Controls.Add(this.BuyHeroSkin1);
+            this.Controls.Add(this.PickSkinMain);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.CoinsCount);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.PictureHeroSkin3);
             this.Controls.Add(this.PictureHeroSkin2);
             this.Controls.Add(this.PictureHeroSkin1);
@@ -168,11 +193,11 @@
             this.MinimizeBox = false;
             this.Name = "HeroSkins";
             this.Text = "HeroSkins";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureHeroSkin3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureHeroSkin2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureHeroSkin1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -184,10 +209,12 @@
         private System.Windows.Forms.PictureBox PictureHeroSkin1;
         private System.Windows.Forms.PictureBox PictureHeroSkin2;
         private System.Windows.Forms.PictureBox PictureHeroSkin3;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label CoinsCount;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button PickSkinMain;
+        private System.Windows.Forms.Button BuyHeroSkin1;
+        private System.Windows.Forms.Button BuyHeroSkin2;
+        private System.Windows.Forms.Button BuyHeroSkin3;
     }
 }

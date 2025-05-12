@@ -34,6 +34,7 @@ namespace HelicopterShooter
             {
                 Size = new Size(110, 100),
                 SizeMode = PictureBoxSizeMode.StretchImage,
+                BackColor = Color.Transparent,
                 Tag = "ufo"
             };
 

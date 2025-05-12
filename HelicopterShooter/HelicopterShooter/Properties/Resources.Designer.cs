@@ -143,6 +143,26 @@ namespace HelicopterShooter.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BackGroundMain2 {
+            get {
+                object obj = ResourceManager.GetObject("BackGroundMain2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BackGroundMainInGame {
+            get {
+                object obj = ResourceManager.GetObject("BackGroundMainInGame", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap BackGroundSkinsButton {
             get {
                 object obj = ResourceManager.GetObject("BackGroundSkinsButton", resourceCulture);

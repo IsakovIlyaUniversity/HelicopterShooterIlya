@@ -43,7 +43,7 @@ namespace HelicopterShooter
             this.PicBackGroundSkinsMenu.BackgroundImage = global::HelicopterShooter.Properties.Resources.BackGroundMain;
             this.PicBackGroundSkinsMenu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.PicBackGroundSkinsMenu.Location = new System.Drawing.Point(1060, 244);
-            this.PicBackGroundSkinsMenu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.PicBackGroundSkinsMenu.Margin = new System.Windows.Forms.Padding(2);
             this.PicBackGroundSkinsMenu.Name = "PicBackGroundSkinsMenu";
             this.PicBackGroundSkinsMenu.Size = new System.Drawing.Size(500, 500);
             this.PicBackGroundSkinsMenu.TabIndex = 8;
@@ -54,7 +54,7 @@ namespace HelicopterShooter
             this.PicHeroSkinsMenu.BackgroundImage = global::HelicopterShooter.Properties.Resources.OIP__1_;
             this.PicHeroSkinsMenu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.PicHeroSkinsMenu.Location = new System.Drawing.Point(360, 244);
-            this.PicHeroSkinsMenu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.PicHeroSkinsMenu.Margin = new System.Windows.Forms.Padding(2);
             this.PicHeroSkinsMenu.Name = "PicHeroSkinsMenu";
             this.PicHeroSkinsMenu.Size = new System.Drawing.Size(500, 500);
             this.PicHeroSkinsMenu.TabIndex = 7;
@@ -64,6 +64,7 @@ namespace HelicopterShooter
             // 
             this.BackGroundSkinsButton.BackgroundImage = global::HelicopterShooter.Properties.Resources.BackGroundSkinsButton;
             this.BackGroundSkinsButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BackGroundSkinsButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BackGroundSkinsButton.FlatAppearance.BorderSize = 0;
             this.BackGroundSkinsButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.BackGroundSkinsButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -80,6 +81,7 @@ namespace HelicopterShooter
             // 
             this.HeroSkinsButton.BackgroundImage = global::HelicopterShooter.Properties.Resources.HeroSkinsButton;
             this.HeroSkinsButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.HeroSkinsButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.HeroSkinsButton.FlatAppearance.BorderSize = 0;
             this.HeroSkinsButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.HeroSkinsButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -111,11 +113,10 @@ namespace HelicopterShooter
             // 
             // ShopForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.DarkGreen;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(2400, 1350);
+            this.ClientSize = new System.Drawing.Size(1920, 1080);
             this.ControlBox = false;
             this.Controls.Add(this.PicBackGroundSkinsMenu);
             this.Controls.Add(this.PicHeroSkinsMenu);
@@ -128,7 +129,6 @@ namespace HelicopterShooter
             this.MinimizeBox = false;
             this.Name = "ShopForm";
             this.Text = "ShopForm";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.PicBackGroundSkinsMenu)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicHeroSkinsMenu)).EndInit();
             this.ResumeLayout(false);
