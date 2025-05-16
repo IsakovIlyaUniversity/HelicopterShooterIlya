@@ -45,7 +45,6 @@ namespace HelicopterShooter
         public BackGroundSkins()
         {
             InitializeComponent();
-
             // Устанавливаем обработчики
             BackGround1ActionButton.Click += (s, e) => HandleSkinAction(1);
             BackGround2ActionButton.Click += (s, e) => HandleSkinAction(2);
