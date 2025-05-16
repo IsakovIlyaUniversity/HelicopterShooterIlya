@@ -36,7 +36,28 @@ namespace HelicopterShooter
 
         private void GameForm_Load(object sender, EventArgs e)
         {
+            int selectedSkin = Properties.Settings.Default.SelectedBackgroundSkin;
+            switch (selectedSkin)
+            {
+                case 1:
+                    this.BackgroundImage = Properties.Resources.BackGroundMainInGame;
+                    break;
+                case 2:
+                    this.BackgroundImage = Properties.Resources.BackGround1;
+                    break;
+                case 3:
+                    this.BackgroundImage = Properties.Resources.BackGround2;
+                    break;
+                case 4:
+                    this.BackgroundImage = Properties.Resources.BackGround3;
+                    break;
+                default:
+                    this.BackgroundImage = Properties.Resources.BackGroundMainInGame;
+                    break;
+            }
 
+            this.BackgroundImageLayout = ImageLayout.Stretch;
         }
+
     }
 }
