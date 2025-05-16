@@ -2,10 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\HelicopterShooter",
-    "\\HelicopterShooter\\obj",
     "\\HelicopterShooter\\Properties",
     "\\pictures"
   ],
-  "SelectedNode": "\\HelicopterShooter\\GameEngine.cs",
+  "SelectedNode": "\\HelicopterShooter.sln",
   "PreviewInSolutionExplorer": false
 }

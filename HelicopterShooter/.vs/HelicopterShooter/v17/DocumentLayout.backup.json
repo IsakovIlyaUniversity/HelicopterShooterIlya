@@ -1,73 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\HelicopterShooterIlyaGame\\HelicopterShooter\\",
+  "WorkspaceRootPath": "C:\\Users\\Mopik\\Documents\\GitHub\\HelicopterShooterIlya\\HelicopterShooter\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{05417F29-F885-4FFA-825B-E7AAD0C7A50D}|HelicopterShooter\\HelicopterShooter.csproj|C:\\Users\\user\\source\\repos\\HelicopterShooterIlyaGame\\HelicopterShooter\\HelicopterShooter\\MainMenuForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05417F29-F885-4FFA-825B-E7AAD0C7A50D}|HelicopterShooter\\HelicopterShooter.csproj|solutionrelative:HelicopterShooter\\MainMenuForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05417F29-F885-4FFA-825B-E7AAD0C7A50D}|HelicopterShooter\\HelicopterShooter.csproj|C:\\Users\\user\\source\\repos\\HelicopterShooterIlyaGame\\HelicopterShooter\\helicoptershooter\\mainmenuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{05417F29-F885-4FFA-825B-E7AAD0C7A50D}|HelicopterShooter\\HelicopterShooter.csproj|solutionrelative:helicoptershooter\\mainmenuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05417F29-F885-4FFA-825B-E7AAD0C7A50D}|HelicopterShooter\\HelicopterShooter.csproj|C:\\Users\\user\\source\\repos\\HelicopterShooterIlyaGame\\HelicopterShooter\\HelicopterShooter\\GameObject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05417F29-F885-4FFA-825B-E7AAD0C7A50D}|HelicopterShooter\\HelicopterShooter.csproj|solutionrelative:HelicopterShooter\\GameObject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05417F29-F885-4FFA-825B-E7AAD0C7A50D}|HelicopterShooter\\HelicopterShooter.csproj|C:\\Users\\user\\source\\repos\\HelicopterShooterIlyaGame\\HelicopterShooter\\helicoptershooter\\gameform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{05417F29-F885-4FFA-825B-E7AAD0C7A50D}|HelicopterShooter\\HelicopterShooter.csproj|solutionrelative:helicoptershooter\\gameform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05417F29-F885-4FFA-825B-E7AAD0C7A50D}|HelicopterShooter\\HelicopterShooter.csproj|c:\\users\\user\\source\\repos\\helicoptershooterilyagame\\helicoptershooter\\helicoptershooter\\obstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05417F29-F885-4FFA-825B-E7AAD0C7A50D}|HelicopterShooter\\HelicopterShooter.csproj|solutionrelative:helicoptershooter\\obstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05417F29-F885-4FFA-825B-E7AAD0C7A50D}|HelicopterShooter\\HelicopterShooter.csproj|C:\\Users\\user\\source\\repos\\HelicopterShooterIlyaGame\\HelicopterShooter\\helicoptershooter\\gameengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05417F29-F885-4FFA-825B-E7AAD0C7A50D}|HelicopterShooter\\HelicopterShooter.csproj|solutionrelative:helicoptershooter\\gameengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05417F29-F885-4FFA-825B-E7AAD0C7A50D}|HelicopterShooter\\HelicopterShooter.csproj|C:\\Users\\user\\source\\repos\\HelicopterShooterIlyaGame\\HelicopterShooter\\helicoptershooter\\heroskins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{05417F29-F885-4FFA-825B-E7AAD0C7A50D}|HelicopterShooter\\HelicopterShooter.csproj|solutionrelative:helicoptershooter\\heroskins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05417F29-F885-4FFA-825B-E7AAD0C7A50D}|HelicopterShooter\\HelicopterShooter.csproj|C:\\Users\\user\\source\\repos\\HelicopterShooterIlyaGame\\HelicopterShooter\\HelicopterShooter\\GameForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05417F29-F885-4FFA-825B-E7AAD0C7A50D}|HelicopterShooter\\HelicopterShooter.csproj|solutionrelative:HelicopterShooter\\GameForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05417F29-F885-4FFA-825B-E7AAD0C7A50D}|HelicopterShooter\\HelicopterShooter.csproj|c:\\users\\user\\source\\repos\\helicoptershooterilyagame\\helicoptershooter\\helicoptershooter\\heroskins.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05417F29-F885-4FFA-825B-E7AAD0C7A50D}|HelicopterShooter\\HelicopterShooter.csproj|solutionrelative:helicoptershooter\\heroskins.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05417F29-F885-4FFA-825B-E7AAD0C7A50D}|HelicopterShooter\\HelicopterShooter.csproj|C:\\Users\\user\\source\\repos\\HelicopterShooterIlyaGame\\HelicopterShooter\\HelicopterShooter\\UFO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05417F29-F885-4FFA-825B-E7AAD0C7A50D}|HelicopterShooter\\HelicopterShooter.csproj|solutionrelative:HelicopterShooter\\UFO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05417F29-F885-4FFA-825B-E7AAD0C7A50D}|HelicopterShooter\\HelicopterShooter.csproj|C:\\Users\\user\\source\\repos\\HelicopterShooterIlyaGame\\HelicopterShooter\\HelicopterShooter\\HeroSkins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05417F29-F885-4FFA-825B-E7AAD0C7A50D}|HelicopterShooter\\HelicopterShooter.csproj|solutionrelative:HelicopterShooter\\HeroSkins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05417F29-F885-4FFA-825B-E7AAD0C7A50D}|HelicopterShooter\\HelicopterShooter.csproj|C:\\Users\\user\\source\\repos\\HelicopterShooterIlyaGame\\HelicopterShooter\\helicoptershooter\\shopform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{05417F29-F885-4FFA-825B-E7AAD0C7A50D}|HelicopterShooter\\HelicopterShooter.csproj|solutionrelative:helicoptershooter\\shopform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05417F29-F885-4FFA-825B-E7AAD0C7A50D}|HelicopterShooter\\HelicopterShooter.csproj|C:\\Users\\user\\source\\repos\\HelicopterShooterIlyaGame\\HelicopterShooter\\HelicopterShooter\\Player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05417F29-F885-4FFA-825B-E7AAD0C7A50D}|HelicopterShooter\\HelicopterShooter.csproj|solutionrelative:HelicopterShooter\\Player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05417F29-F885-4FFA-825B-E7AAD0C7A50D}|HelicopterShooter\\HelicopterShooter.csproj|C:\\Users\\user\\source\\repos\\HelicopterShooterIlyaGame\\HelicopterShooter\\HelicopterShooter\\Bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05417F29-F885-4FFA-825B-E7AAD0C7A50D}|HelicopterShooter\\HelicopterShooter.csproj|solutionrelative:HelicopterShooter\\Bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05417F29-F885-4FFA-825B-E7AAD0C7A50D}|HelicopterShooter\\HelicopterShooter.csproj|C:\\Users\\user\\source\\repos\\HelicopterShooterIlyaGame\\HelicopterShooter\\HelicopterShooter\\ShopForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05417F29-F885-4FFA-825B-E7AAD0C7A50D}|HelicopterShooter\\HelicopterShooter.csproj|solutionrelative:HelicopterShooter\\ShopForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05417F29-F885-4FFA-825B-E7AAD0C7A50D}|HelicopterShooter\\HelicopterShooter.csproj|C:\\Users\\user\\source\\repos\\HelicopterShooterIlyaGame\\HelicopterShooter\\HelicopterShooter\\BackGroundSkins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05417F29-F885-4FFA-825B-E7AAD0C7A50D}|HelicopterShooter\\HelicopterShooter.csproj|solutionrelative:HelicopterShooter\\BackGroundSkins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05417F29-F885-4FFA-825B-E7AAD0C7A50D}|HelicopterShooter\\HelicopterShooter.csproj|C:\\Users\\user\\source\\repos\\HelicopterShooterIlyaGame\\HelicopterShooter\\helicoptershooter\\backgroundskins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{05417F29-F885-4FFA-825B-E7AAD0C7A50D}|HelicopterShooter\\HelicopterShooter.csproj|c:\\users\\mopik\\documents\\github\\helicoptershooterilya\\helicoptershooter\\helicoptershooter\\backgroundskins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{05417F29-F885-4FFA-825B-E7AAD0C7A50D}|HelicopterShooter\\HelicopterShooter.csproj|solutionrelative:helicoptershooter\\backgroundskins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -78,11 +14,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:2:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
             },
             {
               "$type": "Bookmark",
@@ -94,219 +30,19 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Obstacle.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\HelicopterShooterIlyaGame\\HelicopterShooter\\HelicopterShooter\\Obstacle.cs",
-              "RelativeDocumentMoniker": "HelicopterShooter\\Obstacle.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\HelicopterShooterIlyaGame\\HelicopterShooter\\HelicopterShooter\\Obstacle.cs",
-              "RelativeToolTip": "HelicopterShooter\\Obstacle.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T14:05:24.153Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GameEngine.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\HelicopterShooterIlyaGame\\HelicopterShooter\\HelicopterShooter\\GameEngine.cs",
-              "RelativeDocumentMoniker": "HelicopterShooter\\GameEngine.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\HelicopterShooterIlyaGame\\HelicopterShooter\\HelicopterShooter\\GameEngine.cs",
-              "RelativeToolTip": "HelicopterShooter\\GameEngine.cs",
-              "ViewState": "AgIAAKUAAAAAAAAAAAAAALgAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T14:04:23.087Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GameForm.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\HelicopterShooterIlyaGame\\HelicopterShooter\\HelicopterShooter\\GameForm.cs",
-              "RelativeDocumentMoniker": "HelicopterShooter\\GameForm.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\HelicopterShooterIlyaGame\\HelicopterShooter\\HelicopterShooter\\GameForm.cs",
-              "RelativeToolTip": "HelicopterShooter\\GameForm.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T14:03:45.402Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GameForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\HelicopterShooterIlyaGame\\HelicopterShooter\\HelicopterShooter\\GameForm.cs",
-              "RelativeDocumentMoniker": "HelicopterShooter\\GameForm.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\HelicopterShooterIlyaGame\\HelicopterShooter\\HelicopterShooter\\GameForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "HelicopterShooter\\GameForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T14:03:44.326Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GameObject.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\HelicopterShooterIlyaGame\\HelicopterShooter\\HelicopterShooter\\GameObject.cs",
-              "RelativeDocumentMoniker": "HelicopterShooter\\GameObject.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\HelicopterShooterIlyaGame\\HelicopterShooter\\HelicopterShooter\\GameObject.cs",
-              "RelativeToolTip": "HelicopterShooter\\GameObject.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T14:05:54.012Z",
-              "EditorCaption": ""
+              "Name": "ST:2:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainMenuForm.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\HelicopterShooterIlyaGame\\HelicopterShooter\\HelicopterShooter\\MainMenuForm.cs",
-              "RelativeDocumentMoniker": "HelicopterShooter\\MainMenuForm.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\HelicopterShooterIlyaGame\\HelicopterShooter\\HelicopterShooter\\MainMenuForm.cs",
-              "RelativeToolTip": "HelicopterShooter\\MainMenuForm.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAmwCYAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T13:52:42.132Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HeroSkins.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\HelicopterShooterIlyaGame\\HelicopterShooter\\HelicopterShooter\\HeroSkins.cs",
-              "RelativeDocumentMoniker": "HelicopterShooter\\HeroSkins.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\HelicopterShooterIlyaGame\\HelicopterShooter\\HelicopterShooter\\HeroSkins.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "HelicopterShooter\\HeroSkins.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T13:17:19.962Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainMenuForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\HelicopterShooterIlyaGame\\HelicopterShooter\\HelicopterShooter\\MainMenuForm.cs",
-              "RelativeDocumentMoniker": "HelicopterShooter\\MainMenuForm.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\HelicopterShooterIlyaGame\\HelicopterShooter\\HelicopterShooter\\MainMenuForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "HelicopterShooter\\MainMenuForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T13:52:40.367Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "HeroSkins.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\HelicopterShooterIlyaGame\\HelicopterShooter\\HelicopterShooter\\HeroSkins.Designer.cs",
-              "RelativeDocumentMoniker": "HelicopterShooter\\HeroSkins.Designer.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\HelicopterShooterIlyaGame\\HelicopterShooter\\HelicopterShooter\\HeroSkins.Designer.cs",
-              "RelativeToolTip": "HelicopterShooter\\HeroSkins.Designer.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAkwIIAAABVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T17:05:44.343Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UFO.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\HelicopterShooterIlyaGame\\HelicopterShooter\\HelicopterShooter\\UFO.cs",
-              "RelativeDocumentMoniker": "HelicopterShooter\\UFO.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\HelicopterShooterIlyaGame\\HelicopterShooter\\HelicopterShooter\\UFO.cs",
-              "RelativeToolTip": "HelicopterShooter\\UFO.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAAwFcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T14:05:36.353Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "HeroSkins.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\HelicopterShooterIlyaGame\\HelicopterShooter\\HelicopterShooter\\HeroSkins.cs",
-              "RelativeDocumentMoniker": "HelicopterShooter\\HeroSkins.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\HelicopterShooterIlyaGame\\HelicopterShooter\\HelicopterShooter\\HeroSkins.cs",
-              "RelativeToolTip": "HelicopterShooter\\HeroSkins.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAkwBgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T13:19:26.072Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ShopForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\HelicopterShooterIlyaGame\\HelicopterShooter\\HelicopterShooter\\ShopForm.cs",
-              "RelativeDocumentMoniker": "HelicopterShooter\\ShopForm.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\HelicopterShooterIlyaGame\\HelicopterShooter\\HelicopterShooter\\ShopForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "HelicopterShooter\\ShopForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T12:56:58.696Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Bullet.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\HelicopterShooterIlyaGame\\HelicopterShooter\\HelicopterShooter\\Bullet.cs",
-              "RelativeDocumentMoniker": "HelicopterShooter\\Bullet.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\HelicopterShooterIlyaGame\\HelicopterShooter\\HelicopterShooter\\Bullet.cs",
-              "RelativeToolTip": "HelicopterShooter\\Bullet.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAA8wEcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T14:04:48.02Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\HelicopterShooterIlyaGame\\HelicopterShooter\\HelicopterShooter\\Player.cs",
-              "RelativeDocumentMoniker": "HelicopterShooter\\Player.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\HelicopterShooterIlyaGame\\HelicopterShooter\\HelicopterShooter\\Player.cs",
-              "RelativeToolTip": "HelicopterShooter\\Player.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAYwC0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T14:05:01.871Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ShopForm.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\HelicopterShooterIlyaGame\\HelicopterShooter\\HelicopterShooter\\ShopForm.cs",
-              "RelativeDocumentMoniker": "HelicopterShooter\\ShopForm.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\HelicopterShooterIlyaGame\\HelicopterShooter\\HelicopterShooter\\ShopForm.cs",
-              "RelativeToolTip": "HelicopterShooter\\ShopForm.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAWwBwAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T13:10:29.019Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "BackGroundSkins.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\HelicopterShooterIlyaGame\\HelicopterShooter\\HelicopterShooter\\BackGroundSkins.cs",
+              "Title": "BackGroundSkins.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Mopik\\Documents\\GitHub\\HelicopterShooterIlya\\HelicopterShooter\\HelicopterShooter\\BackGroundSkins.cs",
               "RelativeDocumentMoniker": "HelicopterShooter\\BackGroundSkins.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\HelicopterShooterIlyaGame\\HelicopterShooter\\HelicopterShooter\\BackGroundSkins.cs",
-              "RelativeToolTip": "HelicopterShooter\\BackGroundSkins.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Mopik\\Documents\\GitHub\\HelicopterShooterIlya\\HelicopterShooter\\HelicopterShooter\\BackGroundSkins.cs [Design]",
+              "RelativeToolTip": "HelicopterShooter\\BackGroundSkins.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T13:47:21.104Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "BackGroundSkins.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\HelicopterShooterIlyaGame\\HelicopterShooter\\HelicopterShooter\\BackGroundSkins.cs",
-              "RelativeDocumentMoniker": "HelicopterShooter\\BackGroundSkins.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\HelicopterShooterIlyaGame\\HelicopterShooter\\HelicopterShooter\\BackGroundSkins.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "HelicopterShooter\\BackGroundSkins.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T13:46:08.259Z"
+              "WhenOpened": "2025-05-11T23:58:40.893Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
