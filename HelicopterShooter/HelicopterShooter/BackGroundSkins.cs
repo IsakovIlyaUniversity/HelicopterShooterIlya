@@ -37,9 +37,9 @@ namespace HelicopterShooter
         private Dictionary<int, int> skinPrices = new Dictionary<int, int>()
         {
             {1, 0},
-            {2, 30},
-            {3, 50},
-            {4, 75}
+            {2, 300},
+            {3, 500},
+            {4, 1000}
         };
 
         public BackGroundSkins()
@@ -50,7 +50,6 @@ namespace HelicopterShooter
             BackGround2ActionButton.Click += (s, e) => HandleSkinAction(2);
             BackGround3ActionButton.Click += (s, e) => HandleSkinAction(3);
             BackGround4ActionButton.Click += (s, e) => HandleSkinAction(4);
-
             UpdateUI();
         }
 
