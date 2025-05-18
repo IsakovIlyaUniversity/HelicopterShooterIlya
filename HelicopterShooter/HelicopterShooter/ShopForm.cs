@@ -28,12 +28,6 @@ namespace HelicopterShooter
                 Close();
             }
         }
-        private void HeroSkinsButton_Click(object sender, EventArgs e)
-        {
-            HeroSkins heroskins = new HeroSkins();
-            heroskins.Show();
-            Hide();
-        }
 
         private void BackGroundSkinsButton_Click(object sender, EventArgs e)
         {

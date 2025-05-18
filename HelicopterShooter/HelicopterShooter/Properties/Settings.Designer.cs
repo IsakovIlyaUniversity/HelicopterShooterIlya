@@ -34,5 +34,65 @@ namespace HelicopterShooter.Properties {
                 this["TotalCoins"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("1")]
+        public int SelectedBackgroundSkin {
+            get {
+                return ((int)(this["SelectedBackgroundSkin"]));
+            }
+            set {
+                this["SelectedBackgroundSkin"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        public bool Skin1Owned {
+            get {
+                return ((bool)(this["Skin1Owned"]));
+            }
+            set {
+                this["Skin1Owned"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Skin2Owned {
+            get {
+                return ((bool)(this["Skin2Owned"]));
+            }
+            set {
+                this["Skin2Owned"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Skin3Owned {
+            get {
+                return ((bool)(this["Skin3Owned"]));
+            }
+            set {
+                this["Skin3Owned"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Skin4Owned {
+            get {
+                return ((bool)(this["Skin4Owned"]));
+            }
+            set {
+                this["Skin4Owned"] = value;
+            }
+        }
     }
 }
