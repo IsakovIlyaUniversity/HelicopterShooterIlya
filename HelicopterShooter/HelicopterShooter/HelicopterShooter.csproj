@@ -178,10 +178,10 @@
     <None Include="Resources\BackGroundMainInGame.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\BackGround2InGame.png" />
+    <None Include="Resources\BackGround3InGame.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\BackGround3InGame.png" />
+    <None Include="Resources\BackGround2InGame.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\BackGround1InGame.png" />
