@@ -53,28 +53,28 @@ namespace HelicopterShooter
             // 
             this.BackGround1ActionButton.Location = new System.Drawing.Point(106, 880);
             this.BackGround1ActionButton.Name = "BackGround1ActionButton";
-            this.BackGround1ActionButton.Size = new System.Drawing.Size(300, 60);
+            this.BackGround1ActionButton.Size = new System.Drawing.Size(350, 80);
             this.BackGround1ActionButton.TabIndex = 14;
             // 
             // BackGround2ActionButton
             // 
             this.BackGround2ActionButton.Location = new System.Drawing.Point(575, 880);
             this.BackGround2ActionButton.Name = "BackGround2ActionButton";
-            this.BackGround2ActionButton.Size = new System.Drawing.Size(300, 60);
+            this.BackGround2ActionButton.Size = new System.Drawing.Size(350, 80);
             this.BackGround2ActionButton.TabIndex = 15;
             // 
             // BackGround3ActionButton
             // 
             this.BackGround3ActionButton.Location = new System.Drawing.Point(1044, 880);
             this.BackGround3ActionButton.Name = "BackGround3ActionButton";
-            this.BackGround3ActionButton.Size = new System.Drawing.Size(300, 60);
+            this.BackGround3ActionButton.Size = new System.Drawing.Size(350, 80);
             this.BackGround3ActionButton.TabIndex = 16;
             // 
             // BackGround4ActionButton
             // 
             this.BackGround4ActionButton.Location = new System.Drawing.Point(1513, 880);
             this.BackGround4ActionButton.Name = "BackGround4ActionButton";
-            this.BackGround4ActionButton.Size = new System.Drawing.Size(300, 60);
+            this.BackGround4ActionButton.Size = new System.Drawing.Size(350, 80);
             this.BackGround4ActionButton.TabIndex = 17;
             // 
             // picBackGroundDefault

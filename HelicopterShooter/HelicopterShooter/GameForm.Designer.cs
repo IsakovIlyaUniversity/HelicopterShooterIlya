@@ -51,8 +51,8 @@
             // 
             // pillar2
             // 
-            this.pillar2.Image = global::HelicopterShooter.Properties.Resources.pillar;
-            this.pillar2.Location = new System.Drawing.Point(1816, 818);
+            this.pillar2.Image = global::HelicopterShooter.Properties.Resources.стенка;
+            this.pillar2.Location = new System.Drawing.Point(1817, 649);
             this.pillar2.Name = "pillar2";
             this.pillar2.Size = new System.Drawing.Size(105, 433);
             this.pillar2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -63,7 +63,7 @@
             // pillar1
             // 
             this.pillar1.BackColor = System.Drawing.Color.Transparent;
-            this.pillar1.Image = global::HelicopterShooter.Properties.Resources.pillar;
+            this.pillar1.Image = global::HelicopterShooter.Properties.Resources.стенка;
             this.pillar1.Location = new System.Drawing.Point(952, -1);
             this.pillar1.Name = "pillar1";
             this.pillar1.Size = new System.Drawing.Size(105, 442);

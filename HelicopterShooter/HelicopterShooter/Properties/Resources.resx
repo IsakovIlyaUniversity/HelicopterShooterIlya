@@ -130,6 +130,9 @@
   <data name="pillar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pillar.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="BackGround1InGame" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BackGround1InGame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="BackGroundSkinsButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BackGroundSkinsButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -142,20 +145,26 @@
   <data name="BackGround2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BackGround2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="BackGround2InGame" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BackGround2InGame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="BackGroundMain1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BackGroundMain1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="BackGround3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BackGround3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="alien2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\alien2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BackGround3InGame" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BackGround3InGame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Helicopter" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Helicopter.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="BackGroundMain2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BackGroundMain2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BackGroundMainInGame" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BackGroundMainInGame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="BackGroundMain" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BackGroundMain.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -175,19 +184,13 @@
   <data name="ButtonBack" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ButtonBack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="BackGround3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BackGround3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="BackGroundMainInGame" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BackGroundMainInGame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="OIP (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\OIP (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="BackGround2InGame" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BackGround2InGame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BackGround3InGame" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BackGround3InGame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BackGround1InGame" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BackGround1InGame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="стенка" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\стенка.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

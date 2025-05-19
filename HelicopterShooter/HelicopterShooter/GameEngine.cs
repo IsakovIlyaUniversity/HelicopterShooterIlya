@@ -9,8 +9,12 @@ namespace HelicopterShooter
 {
     public class GameEngine
     {
-        private readonly Form _gameForm;
+        private const int BaseUfoSpeed = 10;
+        private const int UfoSpeedIncreasePerScore = 5;
+        private const int BaseObstacleSpeed = 8;
+        private const int ObstacleSpeedIncreasePerScore = 10;
 
+        private readonly Form _gameForm;
         private readonly Control _container;
         private readonly Player _player;
         private readonly UFO _ufo;
@@ -180,11 +184,11 @@ namespace HelicopterShooter
 
         private void AdjustDifficulty()
         {
-            _ufo.Speed = 10 + _score / 5;
+            _ufo.Speed = BaseUfoSpeed + _score / UfoSpeedIncreasePerScore;
 
             foreach (var obstacle in _obstacles)
             {
-                obstacle.Speed = 8 + _score / 10;
+                obstacle.Speed = BaseObstacleSpeed + _score / ObstacleSpeedIncreasePerScore;
             }
         }
 

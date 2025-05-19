@@ -186,5 +186,8 @@
   <ItemGroup>
     <None Include="Resources\BackGround1InGame.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\стенка.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
