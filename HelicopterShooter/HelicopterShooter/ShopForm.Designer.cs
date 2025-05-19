@@ -84,6 +84,7 @@ namespace HelicopterShooter
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.DarkGreen;
+            this.BackgroundImage = global::HelicopterShooter.Properties.Resources.ShopBackGround;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1920, 1080);
             this.ControlBox = false;

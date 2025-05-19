@@ -45,6 +45,7 @@ namespace HelicopterShooter
         public BackGroundSkins()
         {
             InitializeComponent();
+            this.DoubleBuffered = true;
             // Устанавливаем обработчики
             BackGround1ActionButton.Click += (s, e) => HandleSkinAction(1);
             BackGround2ActionButton.Click += (s, e) => HandleSkinAction(2);
@@ -119,6 +120,7 @@ namespace HelicopterShooter
 
         private void HighlightSelectedSkin()
         {
+            this.DoubleBuffered = true;
             picBackGroundDefault.BackColor = Color.Gray;
             PictureBackGroundSkin1.BackColor = Color.Gray;
             PictureBackGroundSkin2.BackColor = Color.Gray;
@@ -126,10 +128,10 @@ namespace HelicopterShooter
 
             switch (selectedSkin)
             {
-                case 1: picBackGroundDefault.BackColor = Color.Green; break;
-                case 2: PictureBackGroundSkin1.BackColor = Color.Green; break;
-                case 3: PictureBackGroundSkin2.BackColor = Color.Green; break;
-                case 4: PictureBackGroundSkin3.BackColor = Color.Green; break;
+                case 1: picBackGroundDefault.BackColor = Color.Cyan; break;
+                case 2: PictureBackGroundSkin1.BackColor = Color.Cyan; break;
+                case 3: PictureBackGroundSkin2.BackColor = Color.Cyan; break;
+                case 4: PictureBackGroundSkin3.BackColor = Color.Cyan; break;
             }
         }
 

@@ -16,7 +16,7 @@ namespace HelicopterShooter
         {
             InitializeComponent();
             btnExit.Click += BtnExit_Click;
-
+            DoubleBuffered = true;
         }
 
         private void BtnPlay_Click(object sender, EventArgs e)

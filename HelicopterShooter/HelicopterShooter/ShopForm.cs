@@ -12,9 +12,11 @@ namespace HelicopterShooter
 {
     public partial class ShopForm : Form
     {
+
         public ShopForm()
         {
             InitializeComponent();
+            DoubleBuffered = true;
             KeyPreview = true;
             KeyDown += ShopForm_KeyDown;
         }

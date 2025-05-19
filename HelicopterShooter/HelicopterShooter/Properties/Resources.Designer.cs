@@ -253,6 +253,16 @@ namespace HelicopterShooter.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap FirstBackGround {
+            get {
+                object obj = ResourceManager.GetObject("FirstBackGround", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Helicopter {
             get {
                 object obj = ResourceManager.GetObject("Helicopter", resourceCulture);
@@ -296,6 +306,16 @@ namespace HelicopterShooter.Properties {
         internal static System.Drawing.Bitmap pillar {
             get {
                 object obj = ResourceManager.GetObject("pillar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ShopBackGround {
+            get {
+                object obj = ResourceManager.GetObject("ShopBackGround", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
