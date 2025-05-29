@@ -31,6 +31,7 @@ namespace HelicopterShooter
         /// </summary>
         private void InitializeComponent()
         {
+            this.DoubleBuffered = true;
             this.BackGround1ActionButton = new System.Windows.Forms.Button();
             this.BackGround2ActionButton = new System.Windows.Forms.Button();
             this.BackGround3ActionButton = new System.Windows.Forms.Button();
