@@ -27,7 +27,12 @@ namespace HelicopterShooter
             Load += GameForm_Load;
         }
 
-        private void OnScoreUpdated(int score) => txtScore.Text = $"Score: {score}";
+        //private void OnScoreUpdated(int score) => txtScore.Text = $"Score: {score}";
+        private void OnScoreUpdated(int score)
+        {
+            txtScore.Text = $"Score: {score}";
+            txtScore.BringToFront();
+        }
         private void OnGameOver(int score) => txtScore.Text = $"Score: {score} Game over, press enter to retry!";
 
         private void GameForm_KeyDown(object sender, KeyEventArgs e) => _gameEngine.HandleKeyDown(e.KeyCode);

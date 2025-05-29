@@ -218,6 +218,7 @@ namespace HelicopterShooter
 
             ShowExplosion();
             _player.Hide(); // Скрываем игрока после взрыва
+            _ufo.Hide();// спрятали при столкновении с игроком
             Properties.Settings.Default.TotalCoins += _score;
             GameOver?.Invoke(_score);
         }
@@ -226,7 +227,7 @@ namespace HelicopterShooter
             _explosion.Left = _player.Left;
             _explosion.Top = _player.Top;
             _explosion.Visible = true;
-            _explosion.BringToFront();
+            _explosion.SendToBack();
             _explosionTimer.Start();
         }
         private void ResetGame()
@@ -237,6 +238,7 @@ namespace HelicopterShooter
             _gameIsOver = false;
 
             _player.Reset();
+            _ufo.Show(); //вернули ufo
             _player.Show(); // Возвращаем игрока
             _ufo.Reset();
 
