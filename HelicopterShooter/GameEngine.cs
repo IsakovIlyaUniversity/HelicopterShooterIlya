@@ -14,6 +14,7 @@ namespace HelicopterShooter
         private const int BaseObstacleSpeed = 8;
         private const int ObstacleSpeedIncreasePerScore = 10;
 
+
         private readonly Form _gameForm;
         private readonly Control _container;
         private readonly Player _player;
@@ -21,7 +22,9 @@ namespace HelicopterShooter
         private readonly List<Obstacle> _obstacles;
         private readonly List<Bullet> _bullets;
         private readonly Timer _gameTimer;
+        private readonly Timer _explosionTimer = new Timer { Interval = 1500 }; // 1.5 секунды
         private readonly Random _random = new Random();
+        private readonly PictureBox _explosion;
 
         private int _score;
         private bool _gameIsOver;
@@ -34,7 +37,7 @@ namespace HelicopterShooter
         public GameEngine(
             Control container, Form gameForm,
             PictureBox playerSprite, PictureBox obstacleSprite1,
-            PictureBox obstacleSprite2
+            PictureBox obstacleSprite2, PictureBox explosion
             )
         {
             _container = container;
@@ -49,10 +52,19 @@ namespace HelicopterShooter
                 new Obstacle(obstacleSprite2, false)
             };
 
+            _explosion = explosion;
+            _explosion.Visible = false; // скрываем по умолчанию
+
             _bullets = new List<Bullet>();
 
             _gameTimer = new Timer { Interval = 20 };
             _gameTimer.Tick += UpdateGame;
+
+            _explosionTimer.Tick += (s, e) =>
+            {
+                _explosion.Visible = false;
+                _explosionTimer.Stop();
+            };
 
             ResetGame();
         }
@@ -203,27 +215,37 @@ namespace HelicopterShooter
         {
             _gameTimer.Stop();
             _gameIsOver = true;
+
+            ShowExplosion();
+            _player.Hide(); // Скрываем игрока после взрыва
             Properties.Settings.Default.TotalCoins += _score;
             GameOver?.Invoke(_score);
-
         }
-
+        private void ShowExplosion()
+        {
+            _explosion.Left = _player.Left;
+            _explosion.Top = _player.Top;
+            _explosion.Visible = true;
+            _explosion.BringToFront();
+            _explosionTimer.Start();
+        }
         private void ResetGame()
         {
-            _score = 0; 
+            _explosion.Visible = false;
+
+            _score = 0;
             _gameIsOver = false;
 
-            _player.Reset();   
-            _ufo.Reset();      
+            _player.Reset();
+            _player.Show(); // Возвращаем игрока
+            _ufo.Reset();
 
             foreach (var bullet in _bullets)
                 bullet.Destroy();
             _bullets.Clear();
 
             foreach (var obstacle in _obstacles)
-            {
-                obstacle.Reset(); 
-            }
+                obstacle.Reset();
 
             ScoreUpdated?.Invoke(_score);
             _gameTimer.Start();

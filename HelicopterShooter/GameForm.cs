@@ -18,7 +18,7 @@ namespace HelicopterShooter
         {
             InitializeComponent();
             KeyPreview = true;
-            _gameEngine = new GameEngine(this, this, picPlayer, pillar1, pillar2);
+            _gameEngine = new GameEngine(this, this, picPlayer, pillar1, pillar2, picExplosion);
             _gameEngine.ScoreUpdated += OnScoreUpdated;
             _gameEngine.GameOver += OnGameOver;
 

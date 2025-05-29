@@ -32,9 +32,11 @@
             this.pillar2 = new System.Windows.Forms.PictureBox();
             this.pillar1 = new System.Windows.Forms.PictureBox();
             this.picPlayer = new System.Windows.Forms.PictureBox();
+            this.picExplosion = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pillar2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pillar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picExplosion)).BeginInit();
             this.SuspendLayout();
             // 
             // txtScore
@@ -84,6 +86,17 @@
             this.picPlayer.TabStop = false;
             this.picPlayer.Tag = "player";
             // 
+            // picExplosion
+            // 
+            this.picExplosion.BackColor = System.Drawing.Color.Transparent;
+            this.picExplosion.Image = global::HelicopterShooter.Properties.Resources.boom;
+            this.picExplosion.Location = new System.Drawing.Point(482, 46);
+            this.picExplosion.Name = "picExplosion";
+            this.picExplosion.Size = new System.Drawing.Size(270, 222);
+            this.picExplosion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picExplosion.TabIndex = 9;
+            this.picExplosion.TabStop = false;
+            // 
             // GameForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -92,6 +105,7 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1920, 1080);
             this.ControlBox = false;
+            this.Controls.Add(this.picExplosion);
             this.Controls.Add(this.pillar2);
             this.Controls.Add(this.pillar1);
             this.Controls.Add(this.picPlayer);
@@ -107,6 +121,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pillar2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pillar1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picExplosion)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -118,5 +133,6 @@
         private System.Windows.Forms.PictureBox picPlayer;
         private System.Windows.Forms.PictureBox pillar1;
         private System.Windows.Forms.PictureBox pillar2;
+        private System.Windows.Forms.PictureBox picExplosion;
     }
 }

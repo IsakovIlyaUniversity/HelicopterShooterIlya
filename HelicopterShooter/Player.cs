@@ -45,5 +45,16 @@ namespace HelicopterShooter
             Sprite.Left = StartLeft;
             _movingUp = _movingDown = false;
         }
+        /*public void Hide()
+        {
+            Sprite.Visible = false;
+        }
+
+        public void Show()
+        {
+            Sprite.Visible = true;
+        }*/
+        public void Hide() => Sprite.Visible = false;
+        public void Show() => Sprite.Visible = true;
     }
 }
