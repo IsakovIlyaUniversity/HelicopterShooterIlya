@@ -14,7 +14,6 @@ namespace HelicopterShooter
         private const int BaseObstacleSpeed = 8;
         private const int ObstacleSpeedIncreasePerScore = 10;
 
-
         private readonly Form _gameForm;
         private readonly Control _container;
         private readonly Player _player;
@@ -144,6 +143,8 @@ namespace HelicopterShooter
 
         private void Shoot()
         {
+            if (_gameIsOver) return; // После смерти стрелять вздумал???
+
             if ((DateTime.Now - _lastShotTime).TotalMilliseconds < _shootCooldown)
                 return; // еще рано стрелять
 
