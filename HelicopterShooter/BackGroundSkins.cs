@@ -5,9 +5,9 @@ using System.Windows.Forms;
 
 namespace HelicopterShooter
 {
-    public partial class BackGroundSkins : Form
+    public partial class BackGroundSkinsForm : Form
     {
-        private int selectedSkin = 1;
+        private int selectedSkin;
 
         private bool IsSkinOwned(int skinId)
         {
@@ -42,9 +42,10 @@ namespace HelicopterShooter
             {4, 1000}
         };
 
-        public BackGroundSkins()
+        public BackGroundSkinsForm()
         {
             InitializeComponent();
+            selectedSkin = Properties.Settings.Default.SelectedBackgroundSkin;
             this.DoubleBuffered = true;
             // Устанавливаем обработчики
             BackGround1ActionButton.Click += (s, e) => HandleSkinAction(1);
@@ -52,8 +53,17 @@ namespace HelicopterShooter
             BackGround3ActionButton.Click += (s, e) => HandleSkinAction(3);
             BackGround4ActionButton.Click += (s, e) => HandleSkinAction(4);
             UpdateUI();
-        }
 
+            KeyPreview = true;
+            KeyDown += BackGroundSkinsForm_KeyDown;
+        }
+        private void BackGroundSkinsForm_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Escape)
+            {
+                Close();
+            }
+        }
         private void HandleSkinAction(int skinId)
         {
             if (!IsSkinOwned(skinId))
@@ -137,7 +147,7 @@ namespace HelicopterShooter
 
         private void CloseBackGroundSkins_Click(object sender, EventArgs e)
         {
-            new ShopForm().Show();
+            //new ShopForm().Show();
             this.Close();
         }
     }

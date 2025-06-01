@@ -44,7 +44,7 @@
             this.txtScore.AutoSize = true;
             this.txtScore.BackColor = System.Drawing.Color.Transparent;
             this.txtScore.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.txtScore.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.txtScore.ForeColor = System.Drawing.Color.Lime;
             this.txtScore.Location = new System.Drawing.Point(43, 33);
             this.txtScore.Name = "txtScore";
             this.txtScore.Size = new System.Drawing.Size(136, 37);

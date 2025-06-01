@@ -2,7 +2,7 @@
 
 namespace HelicopterShooter
 {
-    partial class BackGroundSkins
+    partial class BackGroundSkinsForm
     {
         /// <summary>
         /// Required designer variable.

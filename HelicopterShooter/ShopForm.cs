@@ -25,23 +25,20 @@ namespace HelicopterShooter
         {
             if (e.KeyCode == Keys.Escape)
             {
-                MainMenuForm mainMenu = new MainMenuForm();
-                mainMenu.Show();
                 Close();
             }
         }
 
         private void BackGroundSkinsButton_Click(object sender, EventArgs e)
         {
-            BackGroundSkins backgroundskins = new BackGroundSkins();
-            backgroundskins.Show();
+            BackGroundSkinsForm backgroundskins = new BackGroundSkinsForm();
             Hide();
+            backgroundskins.ShowDialog();
+            Show();
         }
 
         private void CloseShopButton_click(object sender, EventArgs e)
         {
-            MainMenuForm mainMenu = new MainMenuForm();
-            mainMenu.Show();
             Close();
         }
     }

@@ -33,8 +33,9 @@ namespace HelicopterShooter
         private void BtnShop_Click(object sender, EventArgs e)
         {
             ShopForm shopForm = new ShopForm();
-            shopForm.Show();
             Hide();
+            shopForm.ShowDialog();
+            Show();
         }
 
         private void BtnExit_Click(object sender, EventArgs e)
