@@ -10,12 +10,13 @@ using System.Windows.Forms;
 
 namespace HelicopterShooter
 {
-    public partial class MainMenuForm : Form
+    public partial class MainMenuForm : Form 
     {
         public MainMenuForm()
         {
             InitializeComponent();
             btnExit.Click += BtnExit_Click;
+            DoubleBuffered = true;
         }
 
         private void BtnPlay_Click(object sender, EventArgs e)
@@ -36,6 +37,7 @@ namespace HelicopterShooter
 
         private void BtnExit_Click(object sender, EventArgs e)
         {
+            Properties.Settings.Default.Save();
             Application.Exit();
         }
 
