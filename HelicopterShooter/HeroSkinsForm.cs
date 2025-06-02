@@ -5,7 +5,7 @@ using System.Windows.Forms;
 
 namespace HelicopterShooter
 {
-    public partial class HeroSkin : Form
+    public partial class HeroSkinForm : Form
     {
 
         private int selectedSkin;
@@ -37,7 +37,7 @@ namespace HelicopterShooter
 
 
 
-        public HeroSkin()
+        public HeroSkinForm()
         {
             InitializeComponent();
             selectedSkin = Properties.Settings.Default.SelectedHeroSkin;

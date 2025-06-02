@@ -44,7 +44,7 @@ namespace HelicopterShooter
 
         private void HeroSkinButton_Click(object sender, EventArgs e)
         {
-            HeroSkin heroSkin = new HeroSkin();
+            HeroSkinForm heroSkin = new HeroSkinForm();
             Hide();
             heroSkin.ShowDialog();
             Show();
