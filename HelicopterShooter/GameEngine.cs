@@ -93,20 +93,6 @@ namespace HelicopterShooter
             ResetGame();
         }
 
-
-
-        public void ChangeHeroSkin(int skinId)
-        {
-            if (_heroSkins.ContainsKey(skinId))
-            {
-                _player.Sprite.Image = _heroSkins[skinId];
-                Properties.Settings.Default.SelectedHeroSkin = skinId;
-                Properties.Settings.Default.Save();
-            }
-        }
-
-
-
         public void HandleKeyDown(Keys key)
         {
             if (key == Keys.Escape)

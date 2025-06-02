@@ -1,6 +1,6 @@
 ﻿namespace HelicopterShooter
 {
-    partial class HeroSkinForm
+    partial class HeroSkinsForm
     {
         /// <summary>
         /// Required designer variable.
