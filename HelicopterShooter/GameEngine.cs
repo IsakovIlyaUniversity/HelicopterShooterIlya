@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Drawing; 
 
 namespace HelicopterShooter
 {
@@ -32,6 +33,12 @@ namespace HelicopterShooter
 
         public event Action<int> ScoreUpdated;
         public event Action<int> GameOver;
+
+
+
+        private Dictionary<int, Image> _heroSkins;
+
+
 
         public GameEngine(
             Control container, Form gameForm,
@@ -65,8 +72,41 @@ namespace HelicopterShooter
                 _explosionTimer.Stop();
             };
 
+
+
+            _heroSkins = new Dictionary<int, Image>
+            {
+                {1, Properties.Resources.Helicopter},
+                {2, Properties.Resources.HeroSkin1},
+                {3, Properties.Resources.HeroSkin2},
+                {4, Properties.Resources.HeroSkin3}
+            };
+
+            int selectedSkin = Properties.Settings.Default.SelectedHeroSkin;
+            if (_heroSkins.ContainsKey(selectedSkin))
+            {
+                playerSprite.Image = _heroSkins[selectedSkin];
+            }
+
+
+
             ResetGame();
         }
+
+
+
+        public void ChangeHeroSkin(int skinId)
+        {
+            if (_heroSkins.ContainsKey(skinId))
+            {
+                _player.Sprite.Image = _heroSkins[skinId];
+                Properties.Settings.Default.SelectedHeroSkin = skinId;
+                Properties.Settings.Default.Save();
+            }
+        }
+
+
+
         public void HandleKeyDown(Keys key)
         {
             if (key == Keys.Escape)

@@ -41,5 +41,13 @@ namespace HelicopterShooter
         {
             Close();
         }
+
+        private void HeroSkinButton_Click(object sender, EventArgs e)
+        {
+            HeroSkin heroSkin = new HeroSkin();
+            Hide();
+            heroSkin.ShowDialog();
+            Show();
+        }
     }
 }

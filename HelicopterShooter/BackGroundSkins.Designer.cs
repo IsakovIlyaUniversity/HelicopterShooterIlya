@@ -93,7 +93,7 @@ namespace HelicopterShooter
             this.lblCurrentCountCoints.ForeColor = System.Drawing.Color.Gold;
             this.lblCurrentCountCoints.Location = new System.Drawing.Point(1602, 37);
             this.lblCurrentCountCoints.Name = "lblCurrentCountCoints";
-            this.lblCurrentCountCoints.Size = new System.Drawing.Size(69, 76);
+            this.lblCurrentCountCoints.Size = new System.Drawing.Size(87, 95);
             this.lblCurrentCountCoints.TabIndex = 13;
             this.lblCurrentCountCoints.Text = "0";
             // 
@@ -110,6 +110,7 @@ namespace HelicopterShooter
             // 
             // picBackGroundDefault
             // 
+            this.picBackGroundDefault.BackColor = System.Drawing.Color.DarkGreen;
             this.picBackGroundDefault.BackgroundImage = global::HelicopterShooter.Properties.Resources.BackGroundMain1;
             this.picBackGroundDefault.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.picBackGroundDefault.Location = new System.Drawing.Point(46, 287);
@@ -169,7 +170,7 @@ namespace HelicopterShooter
             this.PictureBackGroundSkin1.TabIndex = 1;
             this.PictureBackGroundSkin1.TabStop = false;
             // 
-            // BackGroundSkins
+            // BackGroundSkinsForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
@@ -192,7 +193,7 @@ namespace HelicopterShooter
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "BackGroundSkins";
+            this.Name = "BackGroundSkinsForm";
             this.Text = "BackGroundSkins";
             ((System.ComponentModel.ISupportInitialize)(this.picMoney)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBackGroundDefault)).EndInit();
