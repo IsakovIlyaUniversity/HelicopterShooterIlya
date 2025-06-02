@@ -22,6 +22,18 @@ namespace HelicopterShooter
             Reset();
         }
 
+
+
+        public void ChangeSkin(Image newSkin)
+        {
+            if (Sprite != null && newSkin != null)
+            {
+                Sprite.Image = newSkin;
+            }
+        }
+
+
+
         public void MoveUp() => _movingUp = true;
 
         public void MoveDown() => _movingDown = true;

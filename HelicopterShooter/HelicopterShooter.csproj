@@ -61,6 +61,12 @@
       <DependentUpon>GameForm.cs</DependentUpon>
     </Compile>
     <Compile Include="GameObject.cs" />
+    <Compile Include="HeroSkin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HeroSkin.Designer.cs">
+      <DependentUpon>HeroSkin.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainMenuForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,6 +95,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GameForm.resx">
       <DependentUpon>GameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HeroSkin.resx">
+      <DependentUpon>HeroSkin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainMenuForm.resx">
       <DependentUpon>MainMenuForm.cs</DependentUpon>
@@ -197,6 +206,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\boom.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HeroSkin1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HeroSkin2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HeroSkin3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picHeroSkinShop.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
