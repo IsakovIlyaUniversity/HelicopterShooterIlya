@@ -21,8 +21,7 @@ namespace HelicopterShooter
 
         private void LoadHeroSkinImages()
         {
-            // Загружаем изображения для каждого скина
-            picHeroSkinDef.BackgroundImage = Properties.Resources.Helicopter; // Замените на ваши ресурсы
+            picHeroSkinDef.BackgroundImage = Properties.Resources.Helicopter;
             picHeroSkin1.BackgroundImage = Properties.Resources.HeroSkin1;
             picHeroSkin2.BackgroundImage = Properties.Resources.HeroSkin2;
             picHeroSkin3.BackgroundImage = Properties.Resources.HeroSkin3;
@@ -47,15 +46,11 @@ namespace HelicopterShooter
 
             LoadHeroSkinImages();
 
-
-
-            // Назначаем обработчики для кнопок скинов
             heroSkin1ActionButton.Click += (s, e) => HandleSkinAction(1);
             heroSkin2ActionButton.Click += (s, e) => HandleSkinAction(2);
             heroSkin3ActionButton.Click += (s, e) => HandleSkinAction(3);
             heroSkin4ActionButton.Click += (s, e) => HandleSkinAction(4);
 
-            // Обработчик для кнопки закрытия
             CloseShopButton.Click += (s, e) => Close();
 
             UpdateUI();
@@ -112,12 +107,8 @@ namespace HelicopterShooter
             {
                 Properties.Settings.Default.TotalCoins -= price;
                 SetSkinOwned(skinId, true);
-                SelectSkin(skinId); // Автоматически выбираем купленный скин
-                Properties.Settings.Default.Save(); // Явное сохранение
-            }
-            else
-            {
-                MessageBox.Show("Недостаточно монет!", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                SelectSkin(skinId);
+                Properties.Settings.Default.Save();
             }
         }
 

@@ -65,7 +65,7 @@
             // picHeroSkinDef
             // 
             this.picHeroSkinDef.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.picHeroSkinDef.BackColor = System.Drawing.Color.Blue;
+            this.picHeroSkinDef.BackColor = System.Drawing.Color.DarkGreen;
             this.picHeroSkinDef.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.picHeroSkinDef.Location = new System.Drawing.Point(46, 287);
             this.picHeroSkinDef.Margin = new System.Windows.Forms.Padding(2);
@@ -78,7 +78,7 @@
             // picHeroSkin1
             // 
             this.picHeroSkin1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.picHeroSkin1.BackColor = System.Drawing.Color.Blue;
+            this.picHeroSkin1.BackColor = System.Drawing.Color.DarkGreen;
             this.picHeroSkin1.BackgroundImage = global::HelicopterShooter.Properties.Resources.HeroSkin1;
             this.picHeroSkin1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.picHeroSkin1.Location = new System.Drawing.Point(515, 287);
@@ -91,7 +91,7 @@
             // picHeroSkin2
             // 
             this.picHeroSkin2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.picHeroSkin2.BackColor = System.Drawing.Color.Blue;
+            this.picHeroSkin2.BackColor = System.Drawing.Color.DarkGreen;
             this.picHeroSkin2.BackgroundImage = global::HelicopterShooter.Properties.Resources.HeroSkin2;
             this.picHeroSkin2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.picHeroSkin2.Location = new System.Drawing.Point(984, 287);
@@ -104,7 +104,7 @@
             // picHeroSkin3
             // 
             this.picHeroSkin3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.picHeroSkin3.BackColor = System.Drawing.Color.Blue;
+            this.picHeroSkin3.BackColor = System.Drawing.Color.DarkGreen;
             this.picHeroSkin3.BackgroundImage = global::HelicopterShooter.Properties.Resources.HeroSkin3;
             this.picHeroSkin3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.picHeroSkin3.Location = new System.Drawing.Point(1453, 287);
@@ -139,41 +139,49 @@
             // 
             // heroSkin1ActionButton
             // 
-            this.heroSkin1ActionButton.Location = new System.Drawing.Point(105, 728);
+            this.heroSkin1ActionButton.BackColor = System.Drawing.Color.DarkGreen;
+            this.heroSkin1ActionButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.heroSkin1ActionButton.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.heroSkin1ActionButton.Location = new System.Drawing.Point(85, 880);
             this.heroSkin1ActionButton.Name = "heroSkin1ActionButton";
-            this.heroSkin1ActionButton.Size = new System.Drawing.Size(294, 105);
+            this.heroSkin1ActionButton.Size = new System.Drawing.Size(350, 80);
             this.heroSkin1ActionButton.TabIndex = 17;
-            this.heroSkin1ActionButton.Text = "button2";
-            this.heroSkin1ActionButton.UseVisualStyleBackColor = true;
+            this.heroSkin1ActionButton.UseVisualStyleBackColor = false;
             // 
             // heroSkin2ActionButton
             // 
-            this.heroSkin2ActionButton.Location = new System.Drawing.Point(582, 728);
+            this.heroSkin2ActionButton.BackColor = System.Drawing.Color.DarkGreen;
+            this.heroSkin2ActionButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.heroSkin2ActionButton.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.heroSkin2ActionButton.Location = new System.Drawing.Point(555, 880);
             this.heroSkin2ActionButton.Name = "heroSkin2ActionButton";
-            this.heroSkin2ActionButton.Size = new System.Drawing.Size(294, 105);
+            this.heroSkin2ActionButton.Size = new System.Drawing.Size(350, 80);
             this.heroSkin2ActionButton.TabIndex = 18;
-            this.heroSkin2ActionButton.Text = "button2";
-            this.heroSkin2ActionButton.UseVisualStyleBackColor = true;
+            this.heroSkin2ActionButton.UseVisualStyleBackColor = false;
             // 
             // heroSkin3ActionButton
             // 
-            this.heroSkin3ActionButton.Location = new System.Drawing.Point(1048, 728);
+            this.heroSkin3ActionButton.BackColor = System.Drawing.Color.DarkGreen;
+            this.heroSkin3ActionButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.heroSkin3ActionButton.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.heroSkin3ActionButton.Location = new System.Drawing.Point(1024, 880);
             this.heroSkin3ActionButton.Name = "heroSkin3ActionButton";
-            this.heroSkin3ActionButton.Size = new System.Drawing.Size(294, 105);
+            this.heroSkin3ActionButton.Size = new System.Drawing.Size(350, 80);
             this.heroSkin3ActionButton.TabIndex = 19;
-            this.heroSkin3ActionButton.Text = "button3";
-            this.heroSkin3ActionButton.UseVisualStyleBackColor = true;
+            this.heroSkin3ActionButton.UseVisualStyleBackColor = false;
             // 
             // heroSkin4ActionButton
             // 
-            this.heroSkin4ActionButton.Location = new System.Drawing.Point(1518, 728);
+            this.heroSkin4ActionButton.BackColor = System.Drawing.Color.DarkGreen;
+            this.heroSkin4ActionButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.heroSkin4ActionButton.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.heroSkin4ActionButton.Location = new System.Drawing.Point(1503, 880);
             this.heroSkin4ActionButton.Name = "heroSkin4ActionButton";
-            this.heroSkin4ActionButton.Size = new System.Drawing.Size(294, 105);
+            this.heroSkin4ActionButton.Size = new System.Drawing.Size(350, 80);
             this.heroSkin4ActionButton.TabIndex = 20;
-            this.heroSkin4ActionButton.Text = "button4";
-            this.heroSkin4ActionButton.UseVisualStyleBackColor = true;
+            this.heroSkin4ActionButton.UseVisualStyleBackColor = false;
             // 
-            // HeroSkin
+            // HeroSkinsForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
@@ -190,9 +198,8 @@
             this.Controls.Add(this.picHeroSkin1);
             this.Controls.Add(this.picHeroSkinDef);
             this.Controls.Add(this.CloseShopButton);
-            this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "HeroSkin";
+            this.Name = "HeroSkinsForm";
             this.Text = "HeroSkin";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.picHeroSkinDef)).EndInit();
